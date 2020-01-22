@@ -1,0 +1,2602 @@
+[
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 01:22:34] \"GET /api/license/3090JN HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uax",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:34.821468347Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 01:22:34] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uaw",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:34.737159614Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 01:22:34] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uav",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:34.641980764Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 01:22:34] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uau",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:34.533255579Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 01:22:33] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uat",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:33.957607093Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 01:22:33] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uas",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:33.528958180Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 01:22:33] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1yrbskag2cc0uar",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T01:22:33.140164556Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T01:22:36.179639850Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:29:48] \"GET /api/license/3090JN HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7l",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:48.312211844Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:29:48] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7k",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:48.219236835Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:29:48] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7j",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:48.125120220Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:29:48] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7i",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:48.020964952Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:29:47] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7h",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:47.428733650Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:29:47] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7g",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:47.004936360Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:29:46] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1htxqisg2be9f7f",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:29:46.629935137Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:52.480989236Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:28:58] \"GET /api/license/9SJL HTTP/1.1\" 500 -\n",
+    "insertId": "3c8mptg276m681",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:58.487258430Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 64, in getChecksum\n    v = base64.b64decode(r.get(X))\n  File \"/usr/local/lib/python3.7/base64.py\", line 80, in b64decode\n    s = _bytes_from_decode_data(s)\n  File \"/usr/local/lib/python3.7/base64.py\", line 46, in _bytes_from_decode_data\n    \"string, not %r\" % s.__class__.__name__) from None\nTypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'\n",
+    "insertId": "3c8mptg276m680",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:58.486597234Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:28:58,485] ERROR in app: Exception on /api/license/9SJL [GET]\n",
+    "insertId": "3c8mptg276m67z",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:58.486544320Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:28:58] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "3c8mptg276m67y",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:58.404222093Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:28:58] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "3c8mptg276m67x",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:58.319122651Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:28:58] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "3c8mptg276m67w",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:58.207860174Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:28:57] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "3c8mptg276m67v",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:57.657585857Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:28:57] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "3c8mptg276m67u",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:57.180058858Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:28:56] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "3c8mptg276m67t",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:28:56.790662730Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:29:02.443999286Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:27:34] \"GET /api/license/9SJL HTTP/1.1\" 500 -\n",
+    "insertId": "vmsc8wg27f4yaf",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.860233693Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 64, in getChecksum\n    v = base64.b64decode(r.get(X))\n  File \"/usr/local/lib/python3.7/base64.py\", line 80, in b64decode\n    s = _bytes_from_decode_data(s)\n  File \"/usr/local/lib/python3.7/base64.py\", line 46, in _bytes_from_decode_data\n    \"string, not %r\" % s.__class__.__name__) from None\nTypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'\n",
+    "insertId": "vmsc8wg27f4yae",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.859553786Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:27:34,859] ERROR in app: Exception on /api/license/9SJL [GET]\n",
+    "insertId": "vmsc8wg27f4yad",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.859519691Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:27:34] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "vmsc8wg27f4yac",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.765528703Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:27:34] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "vmsc8wg27f4yab",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.684852142Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:27:34] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "vmsc8wg27f4yaa",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.586448546Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:27:34] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "vmsc8wg27f4ya9",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:34.056922399Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:27:33] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "vmsc8wg27f4ya8",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:33.640762200Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:27:33] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "vmsc8wg27f4ya7",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:27:33.239847276Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:27:40.387245230Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:26:08] \"GET /api/license/9SJL HTTP/1.1\" 500 -\n",
+    "insertId": "5a7of8g17nre2q",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:08.227957424Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 64, in getChecksum\n    v = base64.b64decode(r.get(X))\n  File \"/usr/local/lib/python3.7/base64.py\", line 80, in b64decode\n    s = _bytes_from_decode_data(s)\n  File \"/usr/local/lib/python3.7/base64.py\", line 46, in _bytes_from_decode_data\n    \"string, not %r\" % s.__class__.__name__) from None\nTypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'\n",
+    "insertId": "5a7of8g17nre2p",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:08.227191569Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:26:08,226] ERROR in app: Exception on /api/license/9SJL [GET]\n",
+    "insertId": "5a7of8g17nre2o",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:08.227128509Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:26:08] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "5a7of8g17nre2n",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:08.144273350Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:26:08] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "5a7of8g17nre2m",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:08.050494104Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:26:07] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "5a7of8g17nre2l",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:07.950006817Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:26:07] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "5a7of8g17nre2k",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:07.303606399Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:26:06] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "5a7of8g17nre2j",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:06.901631894Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:26:06] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "5a7of8g17nre2i",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:26:06.415706740Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:26:13.329268348Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:24:24] \"GET /api/license/9SJL HTTP/1.1\" 500 -\n",
+    "insertId": "19siy9tg26v2u9u",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:24.315282125Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 64, in getChecksum\n    v = base64.b64decode(r.get(X))\n  File \"/usr/local/lib/python3.7/base64.py\", line 80, in b64decode\n    s = _bytes_from_decode_data(s)\n  File \"/usr/local/lib/python3.7/base64.py\", line 46, in _bytes_from_decode_data\n    \"string, not %r\" % s.__class__.__name__) from None\nTypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'\n",
+    "insertId": "19siy9tg26v2u9t",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:24.315170388Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:24:24,313] ERROR in app: Exception on /api/license/9SJL [GET]\n",
+    "insertId": "19siy9tg26v2u9s",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:24.315120785Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:24:24] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "19siy9tg26v2u9r",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:24.225288877Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:24:24] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "19siy9tg26v2u9q",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:24.137578972Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:24:24] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "19siy9tg26v2u9p",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:24.021108701Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:24:23] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "19siy9tg26v2u9o",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:23.502434475Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:24:23] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "19siy9tg26v2u9n",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:23.083486021Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:24:22] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "19siy9tg26v2u9m",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:24:22.676455767Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:29.237271274Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:23:59] \"GET /api/license/9SJL HTTP/1.1\" 500 -\n",
+    "insertId": "1n3ve2zg2b73nd7",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:59.125238252Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 64, in getChecksum\n    v = base64.b64decode(r.get(X))\n  File \"/usr/local/lib/python3.7/base64.py\", line 80, in b64decode\n    s = _bytes_from_decode_data(s)\n  File \"/usr/local/lib/python3.7/base64.py\", line 46, in _bytes_from_decode_data\n    \"string, not %r\" % s.__class__.__name__) from None\nTypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'\n",
+    "insertId": "1n3ve2zg2b73nd6",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:59.124571199Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:23:59,124] ERROR in app: Exception on /api/license/9SJL [GET]\n",
+    "insertId": "1n3ve2zg2b73nd5",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:59.124537232Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:23:59] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "1n3ve2zg2b73nd4",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:59.040339646Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:23:58] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 200 -\n",
+    "insertId": "1n3ve2zg2b73nd3",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:58.961276840Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:23:58] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1n3ve2zg2b73nd2",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:58.865750945Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:23:58] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1n3ve2zg2b73nd1",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:58.377547951Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:23:57] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1n3ve2zg2b73nd0",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:57.896861505Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:23:57] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "1n3ve2zg2b73ncz",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:23:57.519896937Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:24:04.235917263Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:15:25] \"GET /api/license/9SJL HTTP/1.1\" 500 -\n",
+    "insertId": "8vxcetg273p5o1",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.518729323Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 64, in getChecksum\n    v = base64.b64decode(r.get(X))\n  File \"/usr/local/lib/python3.7/base64.py\", line 80, in b64decode\n    s = _bytes_from_decode_data(s)\n  File \"/usr/local/lib/python3.7/base64.py\", line 46, in _bytes_from_decode_data\n    \"string, not %r\" % s.__class__.__name__) from None\nTypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'\n",
+    "insertId": "8vxcetg273p5o0",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.518019169Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:15:25,517] ERROR in app: Exception on /api/license/9SJL [GET]\n",
+    "insertId": "8vxcetg273p5nz",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.517970403Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:15:25] \"GET /api/hash/1acb43b6af19e8d90ea94d40f5b8e207 HTTP/1.1\" 200 -\n",
+    "insertId": "8vxcetg273p5ny",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.433618232Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:15:25] \"GET /api/hash/786d4d75e52cde3b292045265aa59a2c HTTP/1.1\" 500 -\n",
+    "insertId": "8vxcetg273p5nx",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.345113909Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 2446, in wsgi_app\n    response = self.full_dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1951, in full_dispatch_request\n    rv = self.handle_user_exception(e)\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1820, in handle_user_exception\n    reraise(exc_type, exc_value, tb)\n  File \"/usr/local/lib/python3.7/site-packages/flask/_compat.py\", line 39, in reraise\n    raise value\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1949, in full_dispatch_request\n    rv = self.dispatch_request()\n  File \"/usr/local/lib/python3.7/site-packages/flask/app.py\", line 1935, in dispatch_request\n    return self.view_functions[rule.endpoint](**req.view_args)\n  File \"rest-server.py\", line 54, in getvalue\n    v = pickle.loads(r.get(X))\nTypeError: a bytes-like object is required, not 'NoneType'\n",
+    "insertId": "8vxcetg273p5nw",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.344341882Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "[2019-11-14 00:15:25,342] ERROR in app: Exception on /api/hash/786d4d75e52cde3b292045265aa59a2c [GET]\n",
+    "insertId": "8vxcetg273p5nv",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.344285331Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:15:25] \"POST /api/image/the-meat-car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "8vxcetg273p5nu",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:25.113537963Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [14/Nov/2019 00:15:24] \"POST /api/image/geotagged.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "8vxcetg273p5nt",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:24.605630417Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [14/Nov/2019 00:15:24] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "8vxcetg273p5ns",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:24.151950618Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.138.15.201 - - [14/Nov/2019 00:15:23] \"POST /api/image/beetle.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "8vxcetg273p5nr",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default"
+      }
+    },
+    "timestamp": "2019-11-14T00:15:23.744458426Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-14T00:15:30.039700985Z"
+  },
+  {
+    "textPayload": "10.138.15.202 - - [13/Nov/2019 23:29:23] \"POST /api/image/car.jpg HTTP/1.1\" 200 -\n",
+    "insertId": "vn3on4g2apvhc6",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T23:29:23.490781135Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:29:29.245199583Z"
+  },
+  {
+    "textPayload": " * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)\n",
+    "insertId": "1htxqisg2ad56pm",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T23:23:49.634325098Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:24:05.091504271Z"
+  },
+  {
+    "textPayload": " * Debug mode: off\n",
+    "insertId": "1htxqisg2ad56pl",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-13T23:23:49.631240358Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:24:05.091504271Z"
+  },
+  {
+    "textPayload": "   Use a production WSGI server instead.\n",
+    "insertId": "1htxqisg2ad56pj",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T23:23:49.631107385Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:24:05.091504271Z"
+  },
+  {
+    "textPayload": "   WARNING: This is a development server. Do not use it in a production deployment.\n",
+    "insertId": "1htxqisg2ad56pi",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T23:23:49.630959502Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:24:05.091504271Z"
+  },
+  {
+    "textPayload": " * Environment: production\n",
+    "insertId": "1htxqisg2ad56pg",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T23:23:49.630791952Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:24:05.091504271Z"
+  },
+  {
+    "textPayload": " * Serving Flask app \"rest-server\" (lazy loading)\n",
+    "insertId": "1htxqisg2ad56pe",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-7v4vz",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T23:23:49.630443617Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-7v4vz",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T23:24:05.091504271Z"
+  },
+  {
+    "textPayload": " * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)\n",
+    "insertId": "2s85m7g25kvtqb",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904",
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-hc7mw",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T22:31:39.986053511Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-hc7mw",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:32:05.317793739Z"
+  },
+  {
+    "textPayload": " * Debug mode: off\n",
+    "insertId": "2s85m7g25kvtqa",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904",
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-hc7mw",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T22:31:39.983450352Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-hc7mw",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:32:05.317793739Z"
+  },
+  {
+    "textPayload": "   Use a production WSGI server instead.\n",
+    "insertId": "2s85m7g25kvtq9",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904",
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-hc7mw",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-13T22:31:39.983400209Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-hc7mw",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:32:05.317793739Z"
+  },
+  {
+    "textPayload": "   WARNING: This is a development server. Do not use it in a production deployment.\n",
+    "insertId": "2s85m7g25kvtq8",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-hc7mw",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904"
+      }
+    },
+    "timestamp": "2019-11-13T22:31:39.983317604Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq",
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-hc7mw",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:32:05.317793739Z"
+  },
+  {
+    "textPayload": " * Environment: production\n",
+    "insertId": "2s85m7g25kvtq7",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-hc7mw",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904"
+      }
+    },
+    "timestamp": "2019-11-13T22:31:39.983188824Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq",
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-hc7mw",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:32:05.317793739Z"
+  },
+  {
+    "textPayload": " * Serving Flask app \"rest-server\" (lazy loading)\n",
+    "insertId": "2s85m7g25kvtq6",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-hc7mw",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904"
+      }
+    },
+    "timestamp": "2019-11-13T22:31:39.983014618Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq",
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-hc7mw",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:32:05.317793739Z"
+  },
+  {
+    "textPayload": "10.60.1.1 - - [13/Nov/2019 22:25:08] \"GET / HTTP/1.1\" 404 -\n",
+    "insertId": "1mjqezpfiu6pg8",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T22:25:08.477934467Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stderr"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T22:25:14.954871242Z"
+  },
+  {
+    "textPayload": " * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)\n",
+    "insertId": "wgwrlzg24njqkg",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:54:24.997524632Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:55:04.457917202Z"
+  },
+  {
+    "textPayload": " * Debug mode: off\n",
+    "insertId": "wgwrlzg24njqkf",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "project_id": "vasr6141-254820"
+      }
+    },
+    "timestamp": "2019-11-13T21:54:24.993175283Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stdout"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:55:04.457917202Z"
+  },
+  {
+    "textPayload": "   Use a production WSGI server instead.\n",
+    "insertId": "wgwrlzg24njqke",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:54:24.993055190Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:55:04.457917202Z"
+  },
+  {
+    "textPayload": "   WARNING: This is a development server. Do not use it in a production deployment.\n",
+    "insertId": "wgwrlzg24njqkd",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T21:54:24.992912662Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:55:04.457917202Z"
+  },
+  {
+    "textPayload": " * Environment: production\n",
+    "insertId": "wgwrlzg24njqkc",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest"
+      }
+    },
+    "timestamp": "2019-11-13T21:54:24.992735064Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:55:04.457917202Z"
+  },
+  {
+    "textPayload": " * Serving Flask app \"rest-server\" (lazy loading)\n",
+    "insertId": "wgwrlzg24njqkb",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-kqd9q",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:54:24.992520173Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-kqd9q",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:55:04.457917202Z"
+  },
+  {
+    "textPayload": " * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)\n",
+    "insertId": "ivrxxog294y648",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "pod_id": "rest-54fcff554b-pkhjv",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:49:18.171584255Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-pkhjv",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:50:05.215629221Z"
+  },
+  {
+    "textPayload": " * Debug mode: off\n",
+    "insertId": "ivrxxog294y647",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066",
+        "pod_id": "rest-54fcff554b-pkhjv",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T21:49:18.166365639Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-pkhjv",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:50:05.215629221Z"
+  },
+  {
+    "textPayload": "   Use a production WSGI server instead.\n",
+    "insertId": "ivrxxog294y646",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-pkhjv",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:49:18.166237406Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-pkhjv",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:50:05.215629221Z"
+  },
+  {
+    "textPayload": "   WARNING: This is a development server. Do not use it in a production deployment.\n",
+    "insertId": "ivrxxog294y644",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-pkhjv",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:49:18.166090545Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-pkhjv",
+      "container.googleapis.com/stream": "stdout"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:50:05.215629221Z"
+  },
+  {
+    "textPayload": " * Environment: production\n",
+    "insertId": "ivrxxog294y642",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-pkhjv",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:49:18.165888446Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-54fcff554b-pkhjv",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:50:05.215629221Z"
+  },
+  {
+    "textPayload": " * Serving Flask app \"rest-server\" (lazy loading)\n",
+    "insertId": "ivrxxog294y640",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-54fcff554b-pkhjv",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "821086861733775066"
+      }
+    },
+    "timestamp": "2019-11-13T21:49:18.164066979Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-hg3q",
+      "container.googleapis.com/pod_name": "rest-54fcff554b-pkhjv",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:50:05.215629221Z"
+  },
+  {
+    "textPayload": " * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)\n",
+    "insertId": "opdjtvfiluoxi",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904",
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-8bmmd",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T21:37:38.699161903Z",
+    "severity": "ERROR",
+    "labels": {
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-8bmmd",
+      "container.googleapis.com/stream": "stderr",
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:38:05.825184795Z"
+  },
+  {
+    "textPayload": " * Debug mode: off\n",
+    "insertId": "opdjtvfiluoxh",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904",
+        "pod_id": "rest-56cdb95db5-8bmmd",
+        "zone": "us-west1-b",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8"
+      }
+    },
+    "timestamp": "2019-11-13T21:37:38.695032159Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq",
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-8bmmd",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:38:05.825184795Z"
+  },
+  {
+    "textPayload": "   Use a production WSGI server instead.\n",
+    "insertId": "opdjtvfiluoxg",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-8bmmd",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904"
+      }
+    },
+    "timestamp": "2019-11-13T21:37:38.695028531Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq",
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-8bmmd",
+      "container.googleapis.com/stream": "stdout",
+      "container.googleapis.com/namespace_name": "default"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:38:05.825184795Z"
+  },
+  {
+    "textPayload": "   WARNING: This is a development server. Do not use it in a production deployment.\n",
+    "insertId": "opdjtvfiluoxf",
+    "resource": {
+      "type": "container",
+      "labels": {
+        "zone": "us-west1-b",
+        "pod_id": "rest-56cdb95db5-8bmmd",
+        "project_id": "vasr6141-254820",
+        "cluster_name": "lab8",
+        "container_name": "rest",
+        "namespace_id": "default",
+        "instance_id": "8414070294911764904"
+      }
+    },
+    "timestamp": "2019-11-13T21:37:38.695022389Z",
+    "severity": "INFO",
+    "labels": {
+      "container.googleapis.com/namespace_name": "default",
+      "compute.googleapis.com/resource_name": "gke-lab8-default-pool-acf5b5b3-gswq",
+      "container.googleapis.com/pod_name": "rest-56cdb95db5-8bmmd",
+      "container.googleapis.com/stream": "stdout"
+    },
+    "logName": "projects/vasr6141-254820/logs/rest",
+    "receiveTimestamp": "2019-11-13T21:38:05.825184795Z"
+  }
+]

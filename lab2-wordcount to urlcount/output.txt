@@ -1,0 +1,1563 @@
+#Architecture	1
+#Dataflow	1
+#Distribution_and_reliability	1
+#File_systems	1
+#Hadoop_hosting_in_the_cloud	1
+#Performance_considerations	1
+#Scheduling	1
+#cite_note-1	2
+#cite_note-103	1
+#cite_note-14	2
+#cite_note-21	1
+#cite_note-28	2
+#cite_note-35	1
+#cite_note-42	1
+#cite_note-49	1
+#cite_note-56	1
+#cite_note-63	1
+#cite_note-77	1
+#cite_note-8	2
+#cite_note-84	1
+#cite_note-91	1
+#cite_note-98	1
+#cite_note-MongoDB-44	1
+#cite_note-WDHmit86-40	1
+#cite_note-mobileMR-27	1
+#cite_note-powered-by-hadoop-31	2
+#cite_ref-100	1
+#cite_ref-12	2
+#cite_ref-19	1
+#cite_ref-26	1
+#cite_ref-33	1
+#cite_ref-40	1
+#cite_ref-47	1
+#cite_ref-54	1
+#cite_ref-61	1
+#cite_ref-68	1
+#cite_ref-7	2
+#cite_ref-82	1
+#cite_ref-89	1
+#cite_ref-96	1
+#cite_ref-MongoDB_44-0	1
+#cite_ref-failover_76-0	1
+#cite_ref-gridMR_23-0	1
+#cite_ref-hadoop-apache-org_41-2	1
+#cite_ref-hadoop-apache-org_41-9	1
+#cite_ref-history-of-hadoop_52-1	1
+#cite_ref-homepage_2-0	1
+#cite_ref-patent_41-0	1
+#cite_ref-tom-white-book_27-3	1
+#cite_ref-ullman_11-2	1
+//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.364.9898	1
+//doi.org/10.1016%2Fj.jpdc.2010.12.004	1
+//doi.org/10.1145%2F1851476.1851489	1
+//www.wikimediafoundation.org/	2
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=11" title="Edit section: Difference between Hadoop 1 and Hadoop 2 (YARN)	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=17" title="Edit section: Branding	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=6" title="Edit section: Other file systems	1
+/w/index.php?title=Apache_Hadoop&amp;oldid=912775493" title="Permanent link to this revision of the page	1
+/w/index.php?title=MapReduce&amp;action=edit" title="Edit this page [e]" accesskey="e	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=1" title="Edit section: Overview	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=6" title="Edit section: Map function	1
+/w/index.php?title=Special:CreateAccount&amp;returnto=Apache+Hadoop" title="You are encouraged to create an account and log in; however, it is not mandatory	1
+/wiki/Adscape" title="Adscape	1
+/wiki/Al_Gore" title="Al Gore	1
+/wiki/Andrew_File_System" title="Andrew File System	1
+/wiki/Apache_Abdera" title="Apache Abdera	1
+/wiki/Apache_Accumulo" title="Apache Accumulo	2
+/wiki/Apache_Attic" title="Apache Attic	1
+/wiki/Apache_Beam" title="Apache Beam	1
+/wiki/Apache_Brooklyn" title="Apache Brooklyn	1
+/wiki/Apache_Calcite" title="Apache Calcite	1
+/wiki/Apache_Cassandra" title="Apache Cassandra	2
+/wiki/Apache_Directory" title="Apache Directory	1
+/wiki/Apache_HiveMind" title="Apache HiveMind	1
+/wiki/Apache_Karaf" title="Apache Karaf	1
+/wiki/Apache_Kudu" title="Apache Kudu	1
+/wiki/Apache_License_2.0" class="mw-redirect" title="Apache License 2.0	1
+/wiki/Apache_ODE" title="Apache ODE	1
+/wiki/Apache_Qpid" title="Apache Qpid	1
+/wiki/Apache_Shindig" title="Apache Shindig	1
+/wiki/Apache_SpamAssassin" title="Apache SpamAssassin	1
+/wiki/Apache_Storm" class="mw-redirect" title="Apache Storm	1
+/wiki/Apache_SystemML" title="Apache SystemML	1
+/wiki/Apache_Wink" title="Apache Wink	1
+/wiki/Apache_XMLBeans" title="Apache XMLBeans	1
+/wiki/Apache_ZooKeeper" title="Apache ZooKeeper	2
+/wiki/AxKit" title="AxKit	1
+/wiki/Be_File_System" title="Be File System	1
+/wiki/Bean_Scripting_Framework" title="Bean Scripting Framework	1
+/wiki/BlueSky_Open_Platform" title="BlueSky Open Platform	1
+/wiki/CDfs" title="CDfs	1
+/wiki/CHFS" title="CHFS	1
+/wiki/CXFS" title="CXFS	2
+/wiki/C_(programming_language)" title="C (programming language)	1
+/wiki/Caja_project" title="Caja project	1
+/wiki/Category:Google" title="Category:Google	2
+/wiki/Category:Software_using_the_Apache_license" title="Category:Software using the Apache license	1
+/wiki/Censorship_by_Google" title="Censorship by Google	1
+/wiki/Chrome_OS" title="Chrome OS	1
+/wiki/Chromecast" title="Chromecast	1
+/wiki/Cloudera_Impala" class="mw-redirect" title="Cloudera Impala	1
+/wiki/Clustered_file_system" title="Clustered file system	2
+/wiki/Clustered_file_system#Distributed_file_systems" title="Clustered file system	1
+/wiki/Comparison_of_distributed_file_systems" title="Comparison of distributed file systems	1
+/wiki/Cross-platform" class="mw-redirect" title="Cross-platform	1
+/wiki/Dart_(programming_language)" title="Dart (programming language)	1
+/wiki/Data_domain" title="Data domain	1
+/wiki/David_Drummond_(businessman)" title="David Drummond (businessman)	1
+/wiki/Device_file" title="Device file	1
+/wiki/Digital_object_identifier" title="Digital object identifier	16
+/wiki/Distributed_processing" class="mw-redirect" title="Distributed processing	1
+/wiki/Doodle4Google" title="Doodle4Google	1
+/wiki/EROFS" title="EROFS	2
+/wiki/EncFS" title="EncFS	1
+/wiki/Ext3" title="Ext3	1
+/wiki/File:Hadoop_1.png" class="image	1
+/wiki/File_Allocation_Table" title="File Allocation Table	2
+/wiki/File_system" title="File system	1
+/wiki/Files-11" title="Files-11	1
+/wiki/Fold_(higher-order_function)" title="Fold (higher-order function)	1
+/wiki/Fossil_(file_system)" title="Fossil (file system)	1
+/wiki/Generic_trademark" title="Generic trademark	1
+/wiki/Google_Authenticator" title="Google Authenticator	1
+/wiki/Google_Behind_the_Screen" title="Google Behind the Screen	1
+/wiki/Google_Calendar" title="Google Calendar	1
+/wiki/Google_Cardboard" title="Google Cardboard	1
+/wiki/Google_China" title="Google China	1
+/wiki/Google_Compute_Engine" title="Google Compute Engine	1
+/wiki/Google_Developer_Expert" title="Google Developer Expert	1
+/wiki/Google_Domains" title="Google Domains	1
+/wiki/Google_Express" title="Google Express	1
+/wiki/Google_Forms" title="Google Forms	1
+/wiki/Google_Fuchsia" title="Google Fuchsia	1
+/wiki/Google_Hangouts_Meet" title="Google Hangouts Meet	1
+/wiki/Google_Hummingbird" title="Google Hummingbird	1
+/wiki/Google_Images" title="Google Images	1
+/wiki/Google_Keep" title="Google Keep	1
+/wiki/Google_Kythe" title="Google Kythe	1
+/wiki/Google_Lens" title="Google Lens	1
+/wiki/Google_Lunar_X_Prize" title="Google Lunar X Prize	1
+/wiki/Google_Nexus" title="Google Nexus	1
+/wiki/Google_Panda" title="Google Panda	1
+/wiki/Google_logo" title="Google logo	1
+/wiki/Google_transliteration" title="Google transliteration	1
+/wiki/Googleplex" title="Googleplex	1
+/wiki/HAMMER_(file_system)" title="HAMMER (file system)	1
+/wiki/Hash_function" title="Hash function	1
+/wiki/Help:Authority_control" title="Help:Authority control	2
+/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal	1
+/wiki/Hewlett-Packard" title="Hewlett-Packard	1
+/wiki/ISO_13490" title="ISO 13490	1
+/wiki/JFFS" title="JFFS	1
+/wiki/JFS_(file_system)" title="JFS (file system)	2
+/wiki/Jakarta_Slide" title="Jakarta Slide	1
+/wiki/Jini" title="Jini	1
+/wiki/John_Doerr" title="John Doerr	1
+/wiki/John_L._Hennessy" title="John L. Hennessy	1
+/wiki/Keyhole_Markup_Language" title="Keyhole Markup Language	1
+/wiki/LexisNexis" title="LexisNexis	1
+/wiki/Linux" title="Linux	1
+/wiki/List_of_file_systems" title="List of file systems	1
+/wiki/Load_balancing_(computing)" title="Load balancing (computing)	1
+/wiki/Necessity_and_sufficiency" title="Necessity and sufficiency	1
+/wiki/Next3" title="Next3	1
+/wiki/Omid_Kordestani" title="Omid Kordestani	1
+/wiki/Operating_system" title="Operating system	2
+/wiki/Optical_disc" title="Optical disc	1
+/wiki/Outline_of_Google" title="Outline of Google	1
+/wiki/Parallel_file_system" class="mw-redirect" title="Parallel file system	1
+/wiki/Portal:Free_and_open-source_software" title="Portal:Free and open-source software	1
+/wiki/Portal:Google" title="Portal:Google	1
+/wiki/Procfs" title="Procfs	1
+/wiki/Programming_model" title="Programming model	2
+/wiki/RDBMS" class="mw-redirect" title="RDBMS	1
+/wiki/Ram_Shriram" title="Ram Shriram	1
+/wiki/Ray_Kurzweil" title="Ray Kurzweil	1
+/wiki/ReCAPTCHA" title="ReCAPTCHA	1
+/wiki/Record-oriented_filesystem" title="Record-oriented filesystem	1
+/wiki/Repository_(version_control)" title="Repository (version control)	1
+/wiki/Ruth_Porat" title="Ruth Porat	1
+/wiki/Sawzall_(programming_language)" title="Sawzall (programming language)	2
+/wiki/Shared-nothing_architecture" title="Shared-nothing architecture	1
+/wiki/Simple_Linux_Utility_for_Resource_Management" class="mw-redirect" title="Simple Linux Utility for Resource Management	1
+/wiki/Software_release_life_cycle" title="Software release life cycle	1
+/wiki/Special:BookSources/978-1-430-21942-2" title="Special:BookSources/978-1-430-21942-2	1
+/wiki/Special:BookSources/9781449328917" title="Special:BookSources/9781449328917	1
+/wiki/Special:BookSources/9781450301787" title="Special:BookSources/9781450301787	1
+/wiki/Special:BookSources/9781605589428" title="Special:BookSources/9781605589428	1
+/wiki/Storm_(event_processor)" title="Storm (event processor)	1
+/wiki/UBIFS" title="UBIFS	2
+/wiki/Unity_(cable_system)" title="Unity (cable system)	1
+/wiki/Veritas_File_System" title="Veritas File System	1
+/wiki/Versioning_file_system" title="Versioning file system	1
+/wiki/Virtual_reality" title="Virtual reality	1
+/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things	2
+/wiki/Wikipedia:Verifiability#Burden_of_evidence" title="Wikipedia:Verifiability	1
+/wiki/WorldCat_Identities" class="mw-redirect" title="WorldCat Identities	1
+/wiki/Write_Ahead_Physical_Block_Logging" title="Write Ahead Physical Block Logging	1
+/wiki/XFS" title="XFS	1
+/wiki/Xiafs" title="Xiafs	1
+/wiki/YAFFS" title="YAFFS	1
+/wiki/Yahoo!" title="Yahoo!	1
+/wiki/YouTube_Premium" title="YouTube Premium	1
+http://discoproject.org/	1
+http://hadoop.apache.org/docs/r2.8.0/index.html	1
+http://hadoop.apache.org/docs/stable1/capacity_scheduler.html	1
+http://hortonworks.com/blog/reality-check-contributions-to-apache-hadoop/	1
+http://lanyrd.com/2015/hadoopsummit/	1
+http://www.clusterpoint.com	1
+http://www.mongodb.org	1
+http://www.silicon.co.uk/workspace/doug-cutting-big-data-is-not-a-bubble-96694	1
+http://www.willowgarage.com/map-reduce-machine-learning-multicore	1
+https://archive.apache.org/dist/hadoop/common/	1
+https://commons.wikimedia.org/wiki/Category:Apache_Hadoop" hreflang="en	1
+https://cs.wikipedia.org/wiki/MapReduce" title="MapReduce – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target	1
+https://hadoop.apache.org/releases.html#23+May%2C+2012%3A+Release+2.0.0-alpha+available	1
+https://ko.wikipedia.org/wiki/%EC%95%84%ED%8C%8C%EC%B9%98_%ED%95%98%EB%91%A1" title="아파치 하둡 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target	1
+https://mn.wikipedia.org/wiki/%D0%90%D0%BF%D0%B0%D1%87%D0%B5_%D0%A5%D0%B0%D0%B4%D0%BE%D0%BE%D0%BF" title="Апаче Хадооп – Mongolian" lang="mn" hreflang="mn" class="interlanguage-link-target	1
+https://pt.wikipedia.org/wiki/Hadoop" title="Hadoop – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target	1
+https://sr.wikipedia.org/wiki/%D0%90%D0%BF%D0%B0%D1%87%D0%B8_%D0%A5%D0%B0%D0%B4%D1%83%D0%BF" title="Апачи Хадуп – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target	1
+https://te.wikipedia.org/wiki/%E0%B0%B9%E0%B0%A1%E0%B1%82%E0%B0%AA%E0%B1%8D" title="హడూప్ – Telugu" lang="te" hreflang="te" class="interlanguage-link-target	1
+https://ur.wikipedia.org/wiki/%D8%A7%D9%BE%D8%A7%DA%86%DB%8C_%DB%81%DA%88%D9%88%D9%BE" title="اپاچی ہڈوپ – Urdu" lang="ur" hreflang="ur" class="interlanguage-link-target	1
+https://web.archive.org/web/20101205204120/http://apress.com/book/view/1430219424	1
+https://web.archive.org/web/20160307080002/https://developer.yahoo.com/blogs/ydn/hadoop-yahoo-more-ever-54421.html	1
+https://web.archive.org/web/20160307081144/https://developer.yahoo.com/blogs/hadoop/yahoo-launches-world-largest-hadoop-production-application-398.html	1
+https://www.datadoghq.com/blog/monitor-hadoop-metrics/#toc-hdfs-metrics2	1
+https://www.facebook.com/notes/facebook-engineering/under-the-hood-hadoop-distributed-filesystem-reliability-with-namenode-and-avata/10150888759153920	1
+https://www.mediawiki.org/	2
+https://www.wikidata.org/wiki/Q29120#P1324" title="Edit this at Wikidata	1
+#Bibliography	1
+#Implementations_of_MapReduce	1
+#Lack_of_novelty	1
+#Papers	1
+#Partition_function	1
+#Timeline	1
+#Uses	1
+#cite_note-104	1
+#cite_note-15	2
+#cite_note-2	1
+#cite_note-22	1
+#cite_note-36	1
+#cite_note-43	1
+#cite_note-57	1
+#cite_note-64	1
+#cite_note-71	1
+#cite_note-78	1
+#cite_note-85	1
+#cite_note-9	2
+#cite_note-92	1
+#cite_note-99	1
+#cite_note-YSmartPaper-35	1
+#cite_note-hadoop-apache-org-41	10
+#cite_note-michael-noll.com_2-69	1
+#cite_note-patent-41	1
+#cite_note-ullman-11	3
+#cite_ref-1	2
+#cite_ref-101	1
+#cite_ref-13	2
+#cite_ref-20	1
+#cite_ref-34	1
+#cite_ref-48	1
+#cite_ref-55	1
+#cite_ref-62	1
+#cite_ref-8	2
+#cite_ref-83	1
+#cite_ref-90	1
+#cite_ref-97	1
+#cite_ref-ddandms1_33-0	1
+#cite_ref-hadoop-apache-org_41-3	1
+#cite_ref-hadoop-summit-2010_46-0	1
+#cite_ref-homepage_2-1	1
+#cite_ref-mobileMR_27-0	1
+#cite_ref-tom-white-book_27-10	1
+#cite_ref-tom-white-book_27-4	1
+#cite_ref-volunteerMR_25-0	1
+//arxiv.org/abs/1304.1467	1
+//doi.org/10.1109%2FIPDPS.2014.87	1
+//doi.org/10.1145%2F2331042.2331053	1
+//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia	2
+//foundation.wikimedia.org/wiki/Privacy_policy	2
+//www.worldcat.org/issn/1532-0634	1
+/w/index.php?title=Apache_Gora&amp;action=edit&amp;redlink=1" class="new" title="Apache Gora (page does not exist)	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit" title="Edit this page [e]" accesskey="e	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=1" title="Edit section: History	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=12" title="Edit section: Difference between Hadoop 2 and Hadoop 3	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=13" title="Edit section: Other applications	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=20" title="Edit section: References	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=5" title="Edit section: Hadoop distributed file system	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=10" title="Edit section: Output writer	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=17" title="Edit section: Conferences and users groups	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=19" title="Edit section: Implementations of MapReduce	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=2" title="Edit section: Logical view	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=21" title="Edit section: External links	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=3" title="Edit section: Examples	1
+/w/index.php?title=Special:CiteThisPage&amp;page=Apache_Hadoop&amp;id=912775493" title="Information on how to cite this page	1
+/wiki/Alan_Mulally" title="Alan Mulally	1
+/wiki/Apache_Axis2" title="Apache Axis2	1
+/wiki/Apache_Batik" title="Apache Batik	1
+/wiki/Apache_Chemistry" title="Apache Chemistry	1
+/wiki/Apache_Commons" title="Apache Commons	1
+/wiki/Apache_Giraph" title="Apache Giraph	1
+/wiki/Apache_Hadoop	1
+/wiki/Apache_Hive" title="Apache Hive	4
+/wiki/Apache_JMeter" title="Apache JMeter	1
+/wiki/Apache_Jelly" title="Apache Jelly	1
+/wiki/Apache_Lucene" title="Apache Lucene	1
+/wiki/Apache_Maven" title="Apache Maven	1
+/wiki/Apache_PDFBox" title="Apache PDFBox	1
+/wiki/Apache_Samza" title="Apache Samza	1
+/wiki/Apache_Stanbol" title="Apache Stanbol	1
+/wiki/Apache_Traffic_Server" title="Apache Traffic Server	1
+/wiki/Apache_Velocity" title="Apache Velocity	1
+/wiki/Apache_Xalan" title="Apache Xalan	1
+/wiki/ArXiv" title="ArXiv	1
+/wiki/Big_data" title="Big data	4
+/wiki/Blogger_(service)" title="Blogger (service)	1
+/wiki/Case_preservation" title="Case preservation	1
+/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements	1
+/wiki/Category:Apache_Software_Foundation" title="Category:Apache Software Foundation	2
+/wiki/Category:Articles_containing_potentially_dated_statements_from_2013" title="Category:Articles containing potentially dated statements from 2013	1
+/wiki/Category:Articles_needing_additional_references_from_November_2018" title="Category:Articles needing additional references from November 2018	1
+/wiki/Category:Google_operating_systems" title="Category:Google operating systems	1
+/wiki/Category:Use_dmy_dates_from_June_2019" title="Category:Use dmy dates from June 2019	1
+/wiki/CiteSeerX" title="CiteSeerX	3
+/wiki/Cloudera" title="Cloudera	1
+/wiki/Cluster_(computing)" class="mw-redirect" title="Cluster (computing)	1
+/wiki/Computer_access_control" title="Computer access control	1
+/wiki/Criticism_of_Google" title="Criticism of Google	1
+/wiki/Data_locality" class="mw-redirect" title="Data locality	1
+/wiki/Distributed_computing" title="Distributed computing	1
+/wiki/Document_clustering" title="Document clustering	1
+/wiki/ECryptfs" title="ECryptfs	1
+/wiki/ElgooG" title="ElgooG	1
+/wiki/Episode_filesystem" title="Episode filesystem	1
+/wiki/Extended_file_system" title="Extended file system	1
+/wiki/FIFO_(computing_and_electronics)" title="FIFO (computing and electronics)	1
+/wiki/Facebook" title="Facebook	1
+/wiki/Filesystem" class="mw-redirect" title="Filesystem	1
+/wiki/Fork_(file_system)" title="Fork (file system)	1
+/wiki/Go_(programming_language)" title="Go (programming language)	1
+/wiki/Google_APIs" title="Google APIs	1
+/wiki/Google_Ad_Manager" title="Google Ad Manager	1
+/wiki/Google_Alerts" title="Google Alerts	1
+/wiki/Google_Arts_%26_Culture" title="Google Arts &amp; Culture	1
+/wiki/Google_Blog_Search" title="Google Blog Search	1
+/wiki/Google_Chrome" title="Google Chrome	1
+/wiki/Google_Code_Jam" title="Google Code Jam	1
+/wiki/Google_Contributor" title="Google Contributor	1
+/wiki/Google_Finance" title="Google Finance	1
+/wiki/Google_Gadgets" title="Google Gadgets	1
+/wiki/Google_Groups" title="Google Groups	2
+/wiki/Google_Hangouts_Chat" title="Google Hangouts Chat	1
+/wiki/Google_Japanese_Input" title="Google Japanese Input	1
+/wiki/Google_OnHub" title="Google OnHub	1
+/wiki/Google_Play_Books" title="Google Play Books	1
+/wiki/Google_Scholar" title="Google Scholar	1
+/wiki/Google_Search_Console" title="Google Search Console	1
+/wiki/Google_Sites" title="Google Sites	1
+/wiki/Google_Storage" title="Google Storage	1
+/wiki/Google_Sync" title="Google Sync	1
+/wiki/Google_Takeout" title="Google Takeout	1
+/wiki/Google_and_the_World_Brain" title="Google and the World Brain	1
+/wiki/HPCC" title="HPCC	1
+/wiki/History_of_Google" title="History of Google	1
+/wiki/Homomorphism_lemma" class="mw-redirect" title="Homomorphism lemma	1
+/wiki/Hypertable" title="Hypertable	1
+/wiki/IBM" title="IBM	3
+/wiki/IBM_Spectrum_Scale" title="IBM Spectrum Scale	2
+/wiki/Infinispan" title="Infinispan	1
+/wiki/Interface_(computing)" title="Interface (computing)	1
+/wiki/International_Standard_Serial_Number" title="International Standard Serial Number	1
+/wiki/JAR_(file_format)" title="JAR (file format)	2
+/wiki/Java_(programming_language)" title="Java (programming language)	2
+/wiki/Jeff_Dean_(computer_scientist)" title="Jeff Dean (computer scientist)	1
+/wiki/Linear_Tape_File_System" title="Linear Tape File System	1
+/wiki/List_of_Google_products#Discontinued_products_and_services" title="List of Google products	1
+/wiki/List_of_cryptographic_file_systems" title="List of cryptographic file systems	1
+/wiki/Log4j" title="Log4j	1
+/wiki/MINIX_file_system" title="MINIX file system	1
+/wiki/Main_Page" title="Visit the main page [z]" accesskey="z	2
+/wiki/MapR_FS" title="MapR FS	1
+/wiki/Method_(computer_programming)" title="Method (computer programming)	1
+/wiki/MongoDB" title="MongoDB	1
+/wiki/Mount_(computing)" title="Mount (computing)	1
+/wiki/OCaml" title="OCaml	1
+/wiki/PageRank" title="PageRank	1
+/wiki/Patrick_Pichette" title="Patrick Pichette	1
+/wiki/Pig_(programming_tool)" class="mw-redirect" title="Pig (programming tool)	1
+/wiki/Portal:Contents" title="Guides to browsing Wikipedia	2
+/wiki/Project_Sunroof" title="Project Sunroof	1
+/wiki/Remote_File_Sharing" title="Remote File Sharing	1
+/wiki/Rubberhose_(file_system)" title="Rubberhose (file system)	1
+/wiki/SQL" title="SQL	1
+/wiki/SSHFS" title="SSHFS	2
+/wiki/Self-certifying_File_System" title="Self-certifying File System	1
+/wiki/Semantic_file_system" title="Semantic file system	1
+/wiki/Server_Message_Block" title="Server Message Block	1
+/wiki/Software_license" title="Software license	1
+/wiki/Special:BookSources/9781118876220" title="Special:BookSources/9781118876220	1
+/wiki/Special:Random" title="Load a random article [x]" accesskey="x	2
+/wiki/Special:WhatLinksHere/Apache_Hadoop" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j	1
+/wiki/Supercomputer_architecture" title="Supercomputer architecture	1
+/wiki/Template:Apache_Software_Foundation" title="Template:Apache Software Foundation	1
+/wiki/Template:Google_LLC" title="Template:Google LLC	1
+/wiki/Template:Google_Nexus" title="Template:Google Nexus	1
+/wiki/Template:YouTube_navbox" title="Template:YouTube navbox	1
+/wiki/Template_talk:File_systems" title="Template talk:File systems	1
+/wiki/Thrift_(protocol)" class="mw-redirect" title="Thrift (protocol)	1
+/wiki/Throughput" title="Throughput	1
+/wiki/Tmpfs" title="Tmpfs	1
+/wiki/Unix_File_System" title="Unix File System	2
+/wiki/Virtual_International_Authority_File" title="Virtual International Authority File	1
+/wiki/Virtual_file_system" title="Virtual file system	3
+/wiki/Xsan" title="Xsan	2
+http://blog.cloudera.com/blog/2012/10/mr2-and-yarn-briefly-explained/	1
+http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html	1
+http://mail-archives.apache.org/mod_mbox/hadoop-common-dev/200603.mbox/%3C442B27A6.8080500@apache.org%3E	1
+http://perspectives.mvdirona.com/2010/07/hadoop-summit-2010/	1
+http://research.google.com/archive/bigtable-osdi06.pdf	1
+http://stanford.edu/~rezab/papers/dimsum.pdf	1
+http://www.apress.com/book/view/1430219424	1
+http://www.businesswire.com/news/home/20130610006449/en/Hadoop-Summit-North-America-2013-Draws-Record	1
+http://www.computerweekly.com/feature/Big-data-storage-Hadoop-storage-basics	1
+http://www.jeffshafer.com/publications/papers/shafer_ispass10.pdf	1
+http://www.mail-archive.com/nlpatumd@yahoogroups.com/msg00570.html	1
+http://www.usenix.org/events/hotcloud09/tech/full_papers/ananthanarayanan.pdf	1
+http://xrds.acm.org/article.cfm?aid=2331053	1
+https://blogs.apache.org/foundation/entry/the_apache_software_foundation_announces50	1
+https://de.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – German" lang="de" hreflang="de" class="interlanguage-link-target	1
+https://developer.yahoo.com/blogs/hadoop/apache-hadoop-wins-terabyte-sort-benchmark-408.html	1
+https://en.wikipedia.org/w/index.php?title=Apache_Hadoop&amp;oldid=912775493	1
+https://en.wikipedia.org/w/index.php?title=Template:Apache_Software_Foundation&amp;action=edit	1
+https://es.wikipedia.org/wiki/MapReduce" title="MapReduce – Spanish" lang="es" hreflang="es" class="interlanguage-link-target	1
+https://fa.wikipedia.org/wiki/%D9%86%DA%AF%D8%A7%D8%B4%D8%AA%E2%80%8C%DA%A9%D8%A7%D9%87%D8%B4" title="نگاشت‌کاهش – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target	1
+https://issues.apache.org/jira/browse/HADOOP-1	1
+https://issues.apache.org/jira/browse/HADOOP-6704	1
+https://it.wikipedia.org/wiki/MapReduce" title="MapReduce – Italian" lang="it" hreflang="it" class="interlanguage-link-target	1
+https://ja.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target	1
+https://ko.wikipedia.org/wiki/%EB%A7%B5%EB%A6%AC%EB%93%80%EC%8A%A4" title="맵리듀스 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target	1
+https://nl.wikipedia.org/wiki/MapReduce" title="MapReduce – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target	1
+https://ro.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target	1
+https://uk.wikipedia.org/wiki/MapReduce" title="MapReduce – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target	1
+https://web.archive.org/web/20160426112525/https://thinkbiganalytics.com/yahoo-updates-from-hadoop-summit-2010/	1
+https://web.archive.org/web/20161007061553/http://www.mollynix.com/images_content/01commdes/hadoopschedulepdf.pdf	1
+https://www.apress.com/us/book/9781484221983	1
+https://www.nytimes.com/2009/03/17/technology/business-computing/17cloud.html	1
+https://www.oreilly.com/ideas/the-next-10-years-of-apache-hadoop	1
+https://www.usenix.org/legacy/publications/library/proceedings/osdi04/tech/full_papers/dean/dean_html/index.html	1
+https://www.wikidata.org/wiki/Q29120#P856" title="Edit this at Wikidata	2
+https://www.wikidata.org/wiki/Special:EntityPage/Q29120#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage	1
+https://www.wikidata.org/wiki/Special:EntityPage/Q567759" title="Link to connected data repository item [g]" accesskey="g	1
+https://www.wikidata.org/wiki/Special:EntityPage/Q567759#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage	1
+#Capacity_scheduler	1
+#Comparison_function	1
+#Fair_scheduler	1
+#History	1
+#Logical_view	1
+#Prominent_use_cases	1
+#See_also	2
+#cite_note-105	1
+#cite_note-16	1
+#cite_note-23	1
+#cite_note-3	2
+#cite_note-30	1
+#cite_note-37	1
+#cite_note-44	1
+#cite_note-51	1
+#cite_note-58	1
+#cite_note-65	1
+#cite_note-72	1
+#cite_note-79	1
+#cite_note-86	1
+#cite_note-93	1
+#cite_note-:0-16	2
+#cite_note-ApacheHiveWiki-34	1
+#cite_note-BigtablePaper-37	1
+#cite_note-Chambers2010-30	1
+#cite_note-Clusterpoint-43	1
+#cite_note-HMR-24	1
+#cite_note-failover-76	1
+#cite_note-gridMR-23	1
+#cite_note-mrml-19	1
+#cite_note-tiledMR-22	1
+#cite_ref-102	1
+#cite_ref-14	2
+#cite_ref-2	1
+#cite_ref-21	1
+#cite_ref-28	2
+#cite_ref-35	1
+#cite_ref-42	1
+#cite_ref-49	1
+#cite_ref-56	1
+#cite_ref-63	1
+#cite_ref-77	1
+#cite_ref-84	1
+#cite_ref-9	2
+#cite_ref-91	1
+#cite_ref-98	1
+#cite_ref-:0_16-0	1
+#cite_ref-HBase_36-0	1
+#cite_ref-HMR_24-0	1
+#cite_ref-ddandms1_33-1	1
+#cite_ref-gj1_38-0	1
+#cite_ref-graphicsMR_21-0	1
+#cite_ref-hadoop-apache-org_41-4	1
+#cite_ref-hadoop-summit-2010_46-1	1
+#cite_ref-michael-noll.com_2_69-0	1
+#cite_ref-powered-by-hadoop_31-0	1
+#cite_ref-tom-white-book_27-5	1
+#cite_ref-usage_29-0	1
+#p-search	2
+//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.220.8210	1
+//doi.org/10.1016%2Fj.jcss.2011.12.021	1
+//doi.org/10.1016%2Fj.scico.2007.07.001	1
+//doi.org/10.1145%2F1839294.1839332	1
+//doi.org/10.1145%2F1854273.1854337	1
+//doi.org/10.1145%2F1996023.1996026	1
+//en.m.wikipedia.org/w/index.php?title=Apache_Hadoop&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle	1
+//en.m.wikipedia.org/w/index.php?title=MapReduce&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle	1
+//openlibrary.org/books/OL25423189M	1
+//shop.wikimedia.org" title="Visit the Wikipedia store	2
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=7" title="Edit section: JobTracker and TaskTracker: the MapReduce engine	1
+/w/index.php?title=Apache_Hadoop&amp;printable=yes" title="Printable version of this page [p]" accesskey="p	1
+/w/index.php?title=Greg_Jorgensen&amp;action=edit&amp;redlink=1" class="new" title="Greg Jorgensen (page does not exist)	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=16" title="Edit section: Restricted programming framework	1
+/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=MapReduce	1
+/wiki/AI_Challenge" title="AI Challenge	1
+/wiki/Accelerated_Mobile_Pages" title="Accelerated Mobile Pages	1
+/wiki/Alan_Eustace" title="Alan Eustace	1
+/wiki/Alphabet_Inc." title="Alphabet Inc.	1
+/wiki/Amazon_Elastic_Compute_Cloud" title="Amazon Elastic Compute Cloud	1
+/wiki/Android_software_development" title="Android software development	1
+/wiki/Apache_Ambari" title="Apache Ambari	1
+/wiki/Apache_Avro" title="Apache Avro	1
+/wiki/Apache_Cocoon" title="Apache Cocoon	1
+/wiki/Apache_Derby" title="Apache Derby	1
+/wiki/Apache_Felix" title="Apache Felix	1
+/wiki/Apache_Flink" title="Apache Flink	1
+/wiki/Apache_Hadoop" title="Apache Hadoop	2
+/wiki/Apache_Hadoop" title="View the content page [c]" accesskey="c	1
+/wiki/Apache_MXNet" title="Apache MXNet	1
+/wiki/Apache_Mahout" title="Apache Mahout	3
+/wiki/Apache_Nutch" title="Apache Nutch	2
+/wiki/Apache_OpenEJB" title="Apache OpenEJB	1
+/wiki/Apache_Parquet" title="Apache Parquet	1
+/wiki/Btrfs" title="Btrfs	1
+/wiki/CODASYL" title="CODASYL	1
+/wiki/Category:CS1_maint:_BOT:_original-url_status_unknown" title="Category:CS1 maint: BOT: original-url status unknown	2
+/wiki/Category:Distributed_file_systems" title="Category:Distributed file systems	1
+/wiki/Category:Google_software" title="Category:Google software	2
+/wiki/Category:Wikipedia_articles_with_GND_identifiers" title="Category:Wikipedia articles with GND identifiers	1
+/wiki/Chainsaw_(log_file_viewer)" title="Chainsaw (log file viewer)	1
+/wiki/Chromebox" title="Chromebox	1
+/wiki/Commons_Daemon" title="Commons Daemon	1
+/wiki/Compact_Disc_File_System" title="Compact Disc File System	1
+/wiki/Computer_cluster" title="Computer cluster	2
+/wiki/Connection_Machine" title="Connection Machine	1
+/wiki/Copy-on-write" title="Copy-on-write	1
+/wiki/Data_Intensive_Computing" class="mw-redirect" title="Data Intensive Computing	1
+/wiki/Data_Transfer_Project" title="Data Transfer Project	1
+/wiki/Data_deduplication" title="Data deduplication	1
+/wiki/Database" title="Database	1
+/wiki/Debugfs" title="Debugfs	1
+/wiki/Distributed_data_store" title="Distributed data store	1
+/wiki/Distributed_file_system" class="mw-redirect" title="Distributed file system	5
+/wiki/Don%27t_be_evil" title="Don&#39;t be evil	1
+/wiki/ExFAT" title="ExFAT	2
+/wiki/F2FS" title="F2FS	1
+/wiki/FAT_filesystem_and_Linux" title="FAT filesystem and Linux	1
+/wiki/File_change_log" title="File change log	1
+/wiki/File_system_permissions" title="File system permissions	1
+/wiki/Filesystem_in_Userspace" title="Filesystem in Userspace	2
+/wiki/Flutter_(software)" title="Flutter (software)	1
+/wiki/GFS2" title="GFS2	1
+/wiki/Gayglers" title="Gayglers	1
+/wiki/Gmail_interface" title="Gmail interface	1
+/wiki/Google_Cast" title="Google Cast	1
+/wiki/Google_Classroom" title="Google Classroom	1
+/wiki/Google_Contacts" title="Google Contacts	1
+/wiki/Google_Current" title="Google Current	1
+/wiki/Google_Daydream" title="Google Daydream	1
+/wiki/Google_Docs" title="Google Docs	1
+/wiki/Google_Guava" title="Google Guava	1
+/wiki/Google_Hangouts" title="Google Hangouts	1
+/wiki/Google_My_Maps" class="mw-redirect" title="Google My Maps	1
+/wiki/Google_Nest" title="Google Nest	1
+/wiki/Google_Partners" class="mw-redirect" title="Google Partners	1
+/wiki/Google_Patents" title="Google Patents	1
+/wiki/Google_Primer" title="Google Primer	1
+/wiki/Google_Street_View" title="Google Street View	1
+/wiki/Google_Translate" title="Google Translate	1
+/wiki/Google_Web_Toolkit" title="Google Web Toolkit	1
+/wiki/Google_WiFi" title="Google WiFi	1
+/wiki/Google_bombing" title="Google bombing	1
+/wiki/Google_data_centers" title="Google data centers	1
+/wiki/Googlization" title="Googlization	1
+/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors	14
+/wiki/Help:Category" title="Help:Category	2
+/wiki/Help:IPA/English" title="Help:IPA/English	1
+/wiki/High_Sierra_Format" title="High Sierra Format	1
+/wiki/ISO_9660" title="ISO 9660	1
+/wiki/JRE" class="mw-redirect" title="JRE	1
+/wiki/Jakarta_Project" title="Jakarta Project	1
+/wiki/Jetty_(web_server)" title="Jetty (web server)	1
+/wiki/Journal_of_Computer_and_System_Sciences" title="Journal of Computer and System Sciences	1
+/wiki/Knowledge_Graph" title="Knowledge Graph	1
+/wiki/Lambda_architecture" title="Lambda architecture	1
+/wiki/List_of_default_file_systems" title="List of default file systems	1
+/wiki/Lnfs" title="Lnfs	1
+/wiki/Load_(computing)" title="Load (computing)	1
+/wiki/Log-structured_file_system" title="Log-structured file system	1
+/wiki/MIT_Press" title="MIT Press	1
+/wiki/Macintosh_File_System" title="Macintosh File System	1
+/wiki/MapReduce" title="MapReduce	5
+/wiki/Map_(parallel_pattern)" title="Map (parallel pattern)	1
+/wiki/NTFS" title="NTFS	1
+/wiki/NetBeans" title="NetBeans	1
+/wiki/NetWare_File_System" title="NetWare File System	1
+/wiki/Network-attached_storage" title="Network-attached storage	1
+/wiki/Non-Volatile_File_System" title="Non-Volatile File System	1
+/wiki/OneFS_distributed_file_system" title="OneFS distributed file system	1
+/wiki/Open-source_software" title="Open-source software	2
+/wiki/OpenRefine" title="OpenRefine	1
+/wiki/OpenSocial" title="OpenSocial	1
+/wiki/Open_Library" title="Open Library	1
+/wiki/Owlchemy_Labs" title="Owlchemy Labs	1
+/wiki/Portal:Current_events" title="Find background information on current events	2
+/wiki/Prior_art" title="Prior art	1
+/wiki/RAID" title="RAID	1
+/wiki/Replication_(computer_science)" class="mw-redirect" title="Replication (computer science)	1
+/wiki/SafeSearch" title="SafeSearch	1
+/wiki/Sanjay_Ghemawat" title="Sanjay Ghemawat	1
+/wiki/Server_farm" title="Server farm	1
+/wiki/Shard_(database_architecture)" title="Shard (database architecture)	1
+/wiki/Shell_scripts" class="mw-redirect" title="Shell scripts	1
+/wiki/Snapseed" title="Snapseed	1
+/wiki/Software_developer" class="mw-redirect" title="Software developer	1
+/wiki/Spark_(cluster_computing_framework)" class="mw-redirect" title="Spark (cluster computing framework)	1
+/wiki/Special:BookSources/978-1-4799-3800-1" title="Special:BookSources/978-1-4799-3800-1	1
+/wiki/Special:BookSources/978-1-935-18219-1" title="Special:BookSources/978-1-935-18219-1	1
+/wiki/Special:RecentChangesLinked/Apache_Hadoop" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k	1
+/wiki/Statistical_machine_translation" title="Statistical machine translation	1
+/wiki/Steganographic_file_system" title="Steganographic file system	1
+/wiki/Sundar_Pichai" title="Sundar Pichai	1
+/wiki/Template:Google_Maps_navbox" title="Template:Google Maps navbox	1
+/wiki/Tenor_(website)" title="Tenor (website)	1
+/wiki/UIMA" title="UIMA	1
+/wiki/Unix" title="Unix	1
+/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u	2
+/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability	1
+/wiki/YouTube_TV" title="YouTube TV	1
+/wiki/ZFS_(z/OS_file_system)" title="ZFS (z/OS file system)	1
+/wiki/Zagat" title="Zagat	1
+http://database.cs.brown.edu/projects/mapreduce-vs-dbms	1
+http://developer.yahoo.com/hadoop/	1
+http://gigaom.com/cloud/why-we-need-more-hadoop-innovation/	1
+http://graal.ens-lyon.fr/~gfedak/papers/xtremmapreduce.3pgcic10.pdf	1
+http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html#Large_Data_Sets	1
+http://hadoopblog.blogspot.com/2010/05/facebook-has-worlds-largest-hadoop.html	1
+http://hive.apache.org/	1
+http://mpitutorial.com/tutorials/performing-parallel-rank-with-mpi/	1
+http://wenbin.org/doc/papers/Wenbin08PACT.pdf	1
+http://www.dummies.com/how-to/content/managing-files-with-the-hadoop-file-system-command.html	1
+http://www.eecs.berkeley.edu/~franklin/Papers/dataspaceSR.pdf	1
+http://www.eng.auburn.edu/~xqin/pubs/hcw10.pdf	1
+http://www.vldb.org/pvldb/1/1454211.pdf	1
+http://yuanluo.net/publications/LUO_ECMLS2011.pdf	1
+http://zookeeper.apache.org/	1
+https://ca.wikipedia.org/wiki/MapReduce" title="MapReduce – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target	1
+https://cwiki.apache.org/confluence/display/Hive/Home	1
+https://de.wikipedia.org/wiki/MapReduce" title="MapReduce – German" lang="de" hreflang="de" class="interlanguage-link-target	1
+https://developer.yahoo.com/blogs/hadoop/hadoop-summit-2010-agenda-available-455.html	1
+https://en.wikipedia.org/w/index.php?title=Template:Google_LLC&amp;action=edit	1
+https://et.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Estonian" lang="et" hreflang="et" class="interlanguage-link-target	1
+https://eu.wikipedia.org/wiki/MapReduce" title="MapReduce – Basque" lang="eu" hreflang="eu" class="interlanguage-link-target	1
+https://fa.wikipedia.org/wiki/%D8%A2%D9%BE%D8%A7%DA%86%DB%8C_%D9%87%D8%AF%D9%88%D9%BE" title="آپاچی هدوپ – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target	1
+https://fr.wikipedia.org/wiki/Hadoop" title="Hadoop – French" lang="fr" hreflang="fr" class="interlanguage-link-target	1
+https://he.wikipedia.org/wiki/%D7%94%D7%90%D7%93%D7%95%D7%A4" title="האדופ – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target	1
+https://hu.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target	1
+https://issues.apache.org/jira/browse/INFRA-700	2
+https://ml.wikipedia.org/wiki/%E0%B4%B9%E0%B4%A1%E0%B5%82%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B5%8D" title="ഹഡൂപ്പ് – Malayalam" lang="ml" hreflang="ml" class="interlanguage-link-target	1
+https://pl.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target	1
+https://ta.wikipedia.org/wiki/%E0%AE%85%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9A%E0%AF%8D%E0%AE%9A%E0%AE%BF_%E0%AE%B9%E0%AE%9F%E0%AF%82%E0%AE%AA%E0%AF%8D" title="அப்பாச்சி ஹடூப் – Tamil" lang="ta" hreflang="ta" class="interlanguage-link-target	1
+https://web.archive.org/web/20110830130350/http://www.nytimes.com/2009/03/17/technology/business-computing/17cloud.html	1
+https://web.archive.org/web/20140405044536/http://resources.appistry.com/news-and-events/press/06072010-appistry-cloudiq-storage-now-generally-available	1
+https://www.crunchbase.com/organization/mapr-technologies#/entity	1
+https://www.datanami.com/2014/05/12/hadoop-ibm-power/	1
+https://www.facebook.com/notes/facebook-engineering/under-the-hood-scheduling-mapreduce-jobs-more-efficiently-with-corona/10151142560538920	1
+https://zh.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target	1
+https://zh.wikipedia.org/wiki/MapReduce" title="MapReduce – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target	1
+#Examples	1
+#Other_applications	1
+#cite_note-10	1
+#cite_note-106	1
+#cite_note-17	2
+#cite_note-24	1
+#cite_note-31	1
+#cite_note-38	1
+#cite_note-4	2
+#cite_note-45	2
+#cite_note-59	1
+#cite_note-66	1
+#cite_note-73	1
+#cite_note-80	1
+#cite_note-87	1
+#cite_note-94	1
+#cite_note-datanami.com-29	2
+#cite_note-graphicsMR-21	1
+#cite_note-hadoop-summit-2010-46	2
+#cite_note-homepage-2	2
+#cite_note-michael-noll.com_1-70	1
+#cite_note-tom-white-book-27	11
+#cite_note-volunteerMR-25	1
+#cite_ref-103	1
+#cite_ref-15	2
+#cite_ref-22	1
+#cite_ref-3	2
+#cite_ref-36	1
+#cite_ref-43	1
+#cite_ref-57	1
+#cite_ref-64	1
+#cite_ref-71	1
+#cite_ref-78	1
+#cite_ref-85	1
+#cite_ref-92	1
+#cite_ref-99	1
+#cite_ref-:0_16-1	1
+#cite_ref-BigtablePaper_37-0	1
+#cite_ref-Clusterpoint_43-0	1
+#cite_ref-Curt_Monash_42-0	1
+#cite_ref-HBase_36-1	1
+#cite_ref-YSmartPaper_35-0	1
+#cite_ref-contributions-to-apache-hadoop_50-0	1
+#cite_ref-hadoop-apache-org_41-5	1
+#cite_ref-map_5-0	1
+#cite_ref-openlibrary1_75-0	1
+#cite_ref-powered-by-hadoop_31-1	1
+#cite_ref-shark_32-0	1
+#cite_ref-tom-white-book_27-6	1
+//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License	2
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=3" title="Edit section: Architecture	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=9" title="Edit section: Fair scheduler	1
+/w/index.php?title=Apache_Hadoop&amp;action=history" title="Past revisions of this page [h]" accesskey="h	1
+/w/index.php?title=Curt_Monash&amp;action=edit&amp;redlink=1" class="new" title="Curt Monash (page does not exist)	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=20" title="Edit section: References	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=4" title="Edit section: Dataflow	1
+/w/index.php?title=Special:UserLogin&amp;returnto=MapReduce" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o	1
+/wiki/AXFS" title="AXFS	1
+/wiki/AdMob" title="AdMob	1
+/wiki/Amiga_Fast_File_System" title="Amiga Fast File System	1
+/wiki/Amit_Singhal" title="Amit Singhal	1
+/wiki/Android_(operating_system)" title="Android (operating system)	1
+/wiki/Android_TV" title="Android TV	1
+/wiki/Apache_Apex" title="Apache Apex	1
+/wiki/Apache_Axis" title="Apache Axis	1
+/wiki/Apache_Bloodhound" title="Apache Bloodhound	1
+/wiki/Apache_CXF" title="Apache CXF	1
+/wiki/Apache_Camel" title="Apache Camel	1
+/wiki/Apache_Click" title="Apache Click	1
+/wiki/Apache_FOP_(Formatting_Objects_Processor)" title="Apache FOP (Formatting Objects Processor)	1
+/wiki/Apache_HBase" title="Apache HBase	3
+/wiki/Apache_HCatalog" title="Apache HCatalog	1
+/wiki/Apache_Helix" title="Apache Helix	1
+/wiki/Apache_Impala" title="Apache Impala	1
+/wiki/Apache_James" title="Apache James	1
+/wiki/Apache_Kafka" title="Apache Kafka	1
+/wiki/Apache_MyFaces" title="Apache MyFaces	1
+/wiki/Apache_Portable_Runtime" title="Apache Portable Runtime	1
+/wiki/Apache_Shale" title="Apache Shale	1
+/wiki/Apache_Solr" title="Apache Solr	1
+/wiki/Apache_Struts_2" title="Apache Struts 2	1
+/wiki/Apache_Tapestry" title="Apache Tapestry	1
+/wiki/Apache_Tomcat" title="Apache Tomcat	1
+/wiki/Apache_cTAKES" title="Apache cTAKES	1
+/wiki/Apple_File_System" title="Apple File System	2
+/wiki/Atomicity_(programming)" class="mw-redirect" title="Atomicity (programming)	1
+/wiki/Bigtable" title="Bigtable	3
+/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements	1
+/wiki/Category:Articles_with_unsourced_statements_from_February_2019" title="Category:Articles with unsourced statements from February 2019	1
+/wiki/Category:Big_data_products" title="Category:Big data products	1
+/wiki/Category:Free_system_software" title="Category:Free system software	1
+/wiki/Category:Google_events" title="Category:Google events	1
+/wiki/Category:Google_people" title="Category:Google people	1
+/wiki/Category:Hadoop" title="Category:Hadoop	1
+/wiki/Category:Pages_using_Infobox_software_with_unknown_parameters" title="Category:Pages using Infobox software with unknown parameters	1
+/wiki/Chelsea_Market" title="Chelsea Market	1
+/wiki/Chromebit" title="Chromebit	1
+/wiki/Clusterpoint" title="Clusterpoint	1
+/wiki/Cocoa_(API)" title="Cocoa (API)	1
+/wiki/Commodity_computing" title="Commodity computing	1
+/wiki/Configfs" title="Configfs	1
+/wiki/Coverage_of_Google_Street_View" title="Coverage of Google Street View	1
+/wiki/Danny_Hillis" title="Danny Hillis	1
+/wiki/Davfs2" title="Davfs2	1
+/wiki/Docker_(software)" title="Docker (software)	1
+/wiki/Ext4" title="Ext4	1
+/wiki/Extended_file_attributes" title="Extended file attributes	1
+/wiki/Extensibility" title="Extensibility	1
+/wiki/Extent_File_System" title="Extent File System	1
+/wiki/FTP" class="mw-redirect" title="FTP	1
+/wiki/Fault-tolerant_computer_system" title="Fault-tolerant computer system	1
+/wiki/File:Hadoop_logo_new.svg" class="image	1
+/wiki/File_attribute" title="File attribute	1
+/wiki/File_system_API" title="File system API	1
+/wiki/Flash_memory" title="Flash memory	1
+/wiki/For_Dummies" title="For Dummies	1
+/wiki/GData" title="GData	1
+/wiki/G_Suite" title="G Suite	1
+/wiki/Google" title="Google	3
+/wiki/Google.org" title="Google.org	1
+/wiki/Google_ATAP" title="Google ATAP	1
+/wiki/Google_Ads" title="Google Ads	1
+/wiki/Google_App_Engine" title="Google App Engine	1
+/wiki/Google_Apps_Script" title="Google Apps Script	1
+/wiki/Google_Camera" title="Google Camera	1
+/wiki/Google_Developer_Day" title="Google Developer Day	1
+/wiki/Google_Doodle" title="Google Doodle	1
+/wiki/Google_Drawings" title="Google Drawings	1
+/wiki/Google_File_System" title="Google File System	6
+/wiki/Google_Insights_for_Search" title="Google Insights for Search	1
+/wiki/Google_Maps" title="Google Maps	1
+/wiki/Google_Ngram_Viewer" title="Google Ngram Viewer	1
+/wiki/Google_Pay" title="Google Pay	2
+/wiki/Google_Penguin" title="Google Penguin	1
+/wiki/Google_Play_Movies_%26_TV" title="Google Play Movies &amp; TV	1
+/wiki/Google_Stadia" title="Google Stadia	1
+/wiki/Google_Voice_Search" title="Google Voice Search	1
+/wiki/High_Throughput_File_System" title="High Throughput File System	1
+/wiki/IBM_General_Parallel_File_System" class="mw-redirect" title="IBM General Parallel File System	1
+/wiki/Integrated_Authority_File" title="Integrated Authority File	1
+/wiki/Java_virtual_machine" title="Java virtual machine	1
+/wiki/Jeffrey_Ullman" title="Jeffrey Ullman	1
+/wiki/List_of_log-structured_file_systems" title="List of log-structured file systems	1
+/wiki/MapR" title="MapR	1
+/wiki/MapReduce	1
+/wiki/Marketwired" title="Marketwired	1
+/wiki/Material_Design" title="Material Design	1
+/wiki/Message_Passing_Interface" title="Message Passing Interface	1
+/wiki/Michael_Stonebraker" title="Michael Stonebraker	2
+/wiki/Mike_Cafarella" title="Mike Cafarella	1
+/wiki/Multi-core" class="mw-redirect" title="Multi-core	1
+/wiki/Multi-threaded" class="mw-redirect" title="Multi-threaded	1
+/wiki/NILFS" title="NILFS	4
+/wiki/Network_File_System" title="Network File System	1
+/wiki/O%27Reilly_Media" title="O&#39;Reilly Media	1
+/wiki/Object_storage" title="Object storage	1
+/wiki/Parallel_computing" title="Parallel computing	2
+/wiki/Parallel_database" title="Parallel database	1
+/wiki/Paul_Otellini" title="Paul Otellini	1
+/wiki/Pool_(computer_science)" title="Pool (computer science)	1
+/wiki/Procedure_(computing)" class="mw-redirect" title="Procedure (computing)	1
+/wiki/Product_Sans" title="Product Sans	1
+/wiki/Professional_File_System" title="Professional File System	1
+/wiki/QFS" title="QFS	1
+/wiki/Rachel_Whetstone" title="Rachel Whetstone	1
+/wiki/ReFS" title="ReFS	1
+/wiki/Redundancy_(engineering)" title="Redundancy (engineering)	2
+/wiki/Reiser4" title="Reiser4	1
+/wiki/ReiserFS" title="ReiserFS	1
+/wiki/Remote_procedure_call" title="Remote procedure call	1
+/wiki/Riak" title="Riak	1
+/wiki/Salar_Kamangar" title="Salar Kamangar	1
+/wiki/Sharding" class="mw-redirect" title="Sharding	1
+/wiki/Side-effect_(computer_science)" class="mw-redirect" title="Side-effect (computer science)	1
+/wiki/Solid-state_drive" title="Solid-state drive	1
+/wiki/Special:BookSources/978-1-4493-0264-1" title="Special:BookSources/978-1-4493-0264-1	1
+/wiki/Special:BookSources/978-1-4842-2199-0" title="Special:BookSources/978-1-4842-2199-0	1
+/wiki/Special:BookSources/9781450300193" title="Special:BookSources/9781450300193	1
+/wiki/Special:RecentChangesLinked/MapReduce" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k	1
+/wiki/Special:WhatLinksHere/MapReduce" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j	1
+/wiki/Sqoop" title="Sqoop	1
+/wiki/SquashFS" title="SquashFS	1
+/wiki/Synthetic_file_system" title="Synthetic file system	1
+/wiki/Template:Android_devices" title="Template:Android devices	1
+/wiki/Template_talk:Apache_Software_Foundation" title="Template talk:Apache Software Foundation	1
+/wiki/TensorFlow" title="TensorFlow	1
+/wiki/TiVo_Media_File_System" title="TiVo Media File System	1
+/wiki/Wear_OS" title="Wear OS	1
+/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed	1
+/wiki/WinFS" title="WinFS	1
+/wiki/YouTube" title="YouTube	1
+http://grid.deis.unical.it/papers/pdf/MarozzoTaliaTrunfioJCSS2012.pdf	1
+http://hadoop.apache.org/releases.html	1
+http://hbase.apache.org/	2
+http://hortonworks.com/blog/apache-hadoop-yarn-concepts-and-applications/	1
+http://mail-archives.apache.org/mod_mbox/hadoop-common-user/200802.mbox/%3CDD27C9769EA63D43BE3CF4CCCC12DD977ED49E@SNV-EXVS02.ds.corp.yahoo.com%3E	1
+http://research.google.com/archive/gfs.html	2
+http://research.google.com/archive/mapreduce.html	3
+http://resources.appistry.com/news-and-events/press/06072010-appistry-cloudiq-storage-now-generally-available	1
+http://static.googleusercontent.com/media/research.google.com/es/us/archive/mapreduce-osdi04.pdf	1
+http://www.datacenterknowledge.com/archives/2014/06/25/google-dumps-mapreduce-favor-new-hyper-scale-analytics-system/	1
+http://www.dbms2.com/2010/02/11/google-mapreduce-patent/	1
+http://www.mcs.anl.gov/research/projects/mpi/mpi-standard/mpi-report-2.0/mpi2-report.htm	1
+http://www.mollynix.com/images_content/01commdes/hadoopschedulepdf.pdf	1
+http://www.prnewswire.com/news-releases/altiors-altrastar---hadoop-storage-accelerator-and-optimizer-now-certified-on-cdh4-clouderas-distribution-including-apache-hadoop-version-4-183906141.html	1
+http://www.slideshare.net/steve_l/high-availability-hadoop	1
+https://ar.wikipedia.org/wiki/%D9%86%D9%85%D9%88%D8%B0%D8%AC_%D8%A7%D9%84%D9%87%D9%8A%D9%83%D9%84%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D8%B9" title="نموذج الهيكلة والتجميع – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target	1
+https://archive.apache.org/dist/hadoop/core/	2
+https://commons.wikimedia.org/wiki/Category:MapReduce" hreflang="en	1
+https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us	2
+https://en.wikipedia.org/w/index.php?title=Apache_Hadoop&amp;action=edit	3
+https://en.wikipedia.org/w/index.php?title=MapReduce&amp;oldid=911464743	1
+https://git-wip-us.apache.org/repos/asf/hadoop.git	1
+https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html	1
+https://hu.wikipedia.org/wiki/MapReduce" title="MapReduce – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target	1
+https://nl.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target	1
+https://pl.wikipedia.org/wiki/MapReduce" title="MapReduce – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target	1
+https://ru.wikipedia.org/wiki/Hadoop" title="Hadoop – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target	1
+https://ui.adsabs.harvard.edu/abs/2013arXiv1304.1467B	1
+https://web.archive.org/web/20130526091159/https://developer.yahoo.com/blogs/hadoop/yahoo-launches-world-largest-hadoop-production-application-398.html	1
+https://web.archive.org/web/20160307074654/https://developer.yahoo.com/blogs/hadoop/apache-hadoop-wins-terabyte-sort-benchmark-408.html	1
+https://web.archive.org/web/20160307081512/https://developer.yahoo.com/blogs/hadoop/hadoop-summit-2011-june-29th-santa-clara-convention-5061.html	1
+https://wiki.apache.org/hadoop/MountableHDFS	1
+https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute	2
+https://www.wikidata.org/wiki/Q29120" title="Edit this at Wikidata	1
+#Branding	1
+#Commercial_support	1
+#Input_reader	1
+#Map_function	1
+#References	2
+#cite_note-100	1
+#cite_note-11	1
+#cite_note-18	2
+#cite_note-25	1
+#cite_note-32	1
+#cite_note-39	1
+#cite_note-5	1
+#cite_note-53	1
+#cite_note-60	1
+#cite_note-67	1
+#cite_note-74	1
+#cite_note-81	1
+#cite_note-88	1
+#cite_note-95	1
+#cite_note-Curt_Monash-42	1
+#cite_note-shark-32	1
+#cite_note-sigmod-39	1
+#cite_note-stackoverflow-10	1
+#cite_note-usage-29	1
+#cite_ref-104	1
+#cite_ref-16	1
+#cite_ref-23	1
+#cite_ref-30	1
+#cite_ref-37	1
+#cite_ref-4	2
+#cite_ref-44	1
+#cite_ref-51	1
+#cite_ref-58	1
+#cite_ref-65	1
+#cite_ref-72	1
+#cite_ref-79	1
+#cite_ref-86	1
+#cite_ref-93	1
+#cite_ref-WDHmit86_40-0	1
+#cite_ref-contributions-to-apache-hadoop_50-1	1
+#cite_ref-dynCloudMR_26-0	1
+#cite_ref-hadoop-apache-org_41-6	1
+#cite_ref-openlibrary1_75-1	1
+#cite_ref-tiledMR_22-0	1
+#cite_ref-tom-white-book_27-0	1
+#cite_ref-tom-white-book_27-7	1
+#mw-head	2
+//doi.org/10.1109%2FIPDPSW.2016.138	1
+//doi.org/10.1145%2F1806596.1806638	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=15" title="Edit section: Hadoop hosting in the cloud	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=18" title="Edit section: Papers	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=2" title="Edit section: Timeline	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=4" title="Edit section: File systems	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=8" title="Edit section: Scheduling	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=11" title="Edit section: Performance considerations	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=13" title="Edit section: Uses	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=14" title="Edit section: Criticism	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=18" title="Edit section: See also	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=9" title="Edit section: Reduce function	1
+/w/index.php?title=MapReduce&amp;action=history" title="Past revisions of this page [h]" accesskey="h	1
+/w/index.php?title=MapReduce&amp;printable=yes" title="Printable version of this page [p]" accesskey="p	1
+/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Apache+Hadoop	1
+/w/index.php?title=Special:CreateAccount&amp;returnto=MapReduce" title="You are encouraged to create an account and log in; however, it is not mandatory	1
+/wiki/111_Eighth_Avenue" title="111 Eighth Avenue	1
+/wiki/Access_control_list" class="mw-redirect" title="Access control list	1
+/wiki/AdvFS" title="AdvFS	1
+/wiki/Advanced_Disc_Filing_System" title="Advanced Disc Filing System	1
+/wiki/Amazon_Simple_Storage_Service" class="mw-redirect" title="Amazon Simple Storage Service	1
+/wiki/Android_version_history" title="Android version history	1
+/wiki/AngularJS" title="AngularJS	1
+/wiki/Apache_Ant" title="Apache Ant	1
+/wiki/Apache_Beehive" title="Apache Beehive	1
+/wiki/Apache_Commons_Logging" title="Apache Commons Logging	1
+/wiki/Apache_Continuum" title="Apache Continuum	1
+/wiki/Apache_Excalibur" title="Apache Excalibur	1
+/wiki/Apache_Incubator" title="Apache Incubator	1
+/wiki/Apache_Jackrabbit" title="Apache Jackrabbit	1
+/wiki/Apache_Marmotta" title="Apache Marmotta	1
+/wiki/Apache_OFBiz" title="Apache OFBiz	1
+/wiki/Apache_ORC" title="Apache ORC	1
+/wiki/Apache_Oozie" title="Apache Oozie	2
+/wiki/Apache_OpenNLP" title="Apache OpenNLP	1
+/wiki/Apache_OpenOffice" title="Apache OpenOffice	1
+/wiki/Apache_Pig" title="Apache Pig	1
+/wiki/Apache_Pivot" title="Apache Pivot	1
+/wiki/Apache_RocketMQ" title="Apache RocketMQ	1
+/wiki/Apache_Roller" title="Apache Roller	1
+/wiki/Apache_Shiro" title="Apache Shiro	1
+/wiki/Apache_Software_Foundation" class="mw-redirect" title="Apache Software Foundation	2
+/wiki/Apache_Taverna" title="Apache Taverna	1
+/wiki/Apache_Thrift" title="Apache Thrift	1
+/wiki/Apache_Tika" title="Apache Tika	1
+/wiki/Apache_Tuscany" title="Apache Tuscany	1
+/wiki/Apache_XAP" title="Apache XAP	1
+/wiki/Apple_Filing_Protocol" title="Apple Filing Protocol	1
+/wiki/Apress" title="Apress	2
+/wiki/Aufs" title="Aufs	1
+/wiki/Bcachefs" title="Bcachefs	1
+/wiki/Bibcode" title="Bibcode	1
+/wiki/Category:CS1_errors:_missing_periodical" title="Category:CS1 errors: missing periodical	2
+/wiki/Category:Free_software_for_cloud_computing" title="Category:Free software for cloud computing	1
+/wiki/Category:Parallel_computing" title="Category:Parallel computing	1
+/wiki/Category:Wikipedia_articles_with_WorldCat-VIAF_identifiers" title="Category:Wikipedia articles with WorldCat-VIAF identifiers	1
+/wiki/Cloud_computing" title="Cloud computing	1
+/wiki/Comparison_of_file_systems" title="Comparison of file systems	1
+/wiki/Computer_Weekly" title="Computer Weekly	1
+/wiki/Datalight#Reliance_family" title="Datalight	1
+/wiki/Disc_Filing_System" title="Disc Filing System	1
+/wiki/Doug_Cutting" title="Doug Cutting	2
+/wiki/Encrypting_File_System" title="Encrypting File System	2
+/wiki/Execute_in_place" title="Execute in place	1
+/wiki/Ext2" title="Ext2	1
+/wiki/FeedBurner" title="FeedBurner	1
+/wiki/File:Google_2015_logo.svg" class="image	1
+/wiki/Flash_file_system" title="Flash file system	2
+/wiki/Functional_programming" title="Functional programming	1
+/wiki/Gigaom" title="Gigaom	1
+/wiki/Gmail" title="Gmail	1
+/wiki/Google_Account" title="Google Account	1
+/wiki/Google_Assistant" title="Google Assistant	1
+/wiki/Google_Books" title="Google Books	1
+/wiki/Google_Business_Groups" title="Google Business Groups	1
+/wiki/Google_Code-in" title="Google Code-in	1
+/wiki/Google_Data_Liberation_Front" title="Google Data Liberation Front	1
+/wiki/Google_Duo" title="Google Duo	1
+/wiki/Google_Earth" title="Google Earth	1
+/wiki/Google_Fit" title="Google Fit	1
+/wiki/Google_I/O" title="Google I/O	1
+/wiki/Google_News_Archive" title="Google News Archive	1
+/wiki/Google_Pinyin" title="Google Pinyin	1
+/wiki/Google_Play_Music" title="Google Play Music	1
+/wiki/Google_Safe_Browsing" title="Google Safe Browsing	1
+/wiki/Google_Science_Fair" title="Google Science Fair	1
+/wiki/Google_Search" title="Google Search	1
+/wiki/Google_Sheets" title="Google Sheets	1
+/wiki/Google_Street_View_privacy_concerns" title="Google Street View privacy concerns	1
+/wiki/Google_litigation" title="Google litigation	1
+/wiki/HAMMER2" title="HAMMER2	1
+/wiki/Hal_Varian" title="Hal Varian	1
+/wiki/Help:CS1_errors#missing_periodical" title="Help:CS1 errors	72
+/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia	2
+/wiki/High_Performance_File_System" title="High Performance File System	2
+/wiki/International_Standard_Book_Number" title="International Standard Book Number	18
+/wiki/Inverted_index" title="Inverted index	1
+/wiki/Kernfs_(BSD)" title="Kernfs (BSD)	1
+/wiki/Krishna_Bharat" title="Krishna Bharat	1
+/wiki/Larry_Page" title="Larry Page	1
+/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number	1
+/wiki/List_of_Google_Easter_eggs" title="List of Google Easter eggs	1
+/wiki/List_of_Wear_OS_devices" title="List of Wear OS devices	1
+/wiki/LogFS" title="LogFS	1
+/wiki/Matt_Cutts" title="Matt Cutts	1
+/wiki/Mediabot" title="Mediabot	1
+/wiki/Mod_perl" title="Mod perl	1
+/wiki/Modulo_operation" title="Modulo operation	1
+/wiki/Monopoly_video_games" title="Monopoly video games	1
+/wiki/NOVA_(filesystem)" title="NOVA (filesystem)	1
+/wiki/Nest_Labs" class="mw-redirect" title="Nest Labs	1
+/wiki/Nest_Learning_Thermostat" title="Nest Learning Thermostat	1
+/wiki/Novell_Storage_Services" title="Novell Storage Services	1
+/wiki/OCFS2" title="OCFS2	1
+/wiki/OpenAFS" title="OpenAFS	1
+/wiki/OrangeFS" title="OrangeFS	1
+/wiki/Petabyte" title="Petabyte	2
+/wiki/Preemption_(computing)" title="Preemption (computing)	1
+/wiki/Privacy_concerns_regarding_Google" title="Privacy concerns regarding Google	1
+/wiki/Quality_of_service" title="Quality of service	1
+/wiki/Rational_MultiVersion_File_System" title="Rational MultiVersion File System	1
+/wiki/Sector/Sphere" title="Sector/Sphere	1
+/wiki/Secure_Shell" title="Secure Shell	1
+/wiki/Sergey_Brin" title="Sergey Brin	1
+/wiki/Single_point_of_failure" title="Single point of failure	1
+/wiki/Smart_File_System" title="Smart File System	1
+/wiki/Soft_updates" title="Soft updates	1
+/wiki/Software_framework" title="Software framework	1
+/wiki/Specfs" title="Specfs	1
+/wiki/Special:BookSources/978-0-596-52197-4" title="Special:BookSources/978-0-596-52197-4	1
+/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y	2
+/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r	2
+/wiki/Symbolic_link" title="Symbolic link	1
+/wiki/Sysfs" title="Sysfs	1
+/wiki/Template:Alphabet_Inc." title="Template:Alphabet Inc.	1
+/wiki/Template:File_systems" title="Template:File systems	1
+/wiki/Template_talk:Google_LLC" title="Template talk:Google LLC	1
+/wiki/Teradata" title="Teradata	1
+/wiki/UnionFS" title="UnionFS	1
+/wiki/Vevo" title="Vevo	1
+/wiki/Wikipedia:About" title="Find out about Wikipedia	2
+/wiki/Wikipedia:About" title="Wikipedia:About	2
+/wiki/World_Wide_Web" title="World Wide Web	1
+/wiki/ZFS" title="ZFS	2
+/wiki/ZygoteBody" title="ZygoteBody	1
+http://craig-henderson.blogspot.com/2009/11/dewitt-and-stonebrakers-mapreduce-major.html	1
+http://eprints.cs.vt.edu/archive/00001089/01/moon.pdf	1
+http://googleresearch.blogspot.com/2011/09/sorting-petabytes-with-mapreduce-next.html	1
+http://hadoop.apache.org/docs/r2.9.0/index.html	1
+http://hadoop.apache.org/docs/r3.0.0/index.html	1
+http://hortonworks.com/blog/hadoop-summit-2013-amsterdam-its-a-wrap/	1
+http://hortonworks.com/press-releases/fifth-annual-hadoop-summit-2012-kicks-off-with-record-attendance/	1
+http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7530084	1
+http://mapreduce.meetup.com/	1
+http://mpitutorial.com/tutorials/mpi-reduce-and-allreduce/	1
+http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&amp;Sect2=HITOFF&amp;d=PALL&amp;p=1&amp;u=/netahtml/PTO/srchnum.htm&amp;r=1&amp;f=G&amp;l=50&amp;s1=7,650,331.PN.&amp;OS=PN/7,650,331&amp;RS=PN/7,650,331	1
+http://research.google.com/archive/mapreduce-osdi04-slides/index-auto-0004.html	1
+http://typicalprogrammer.com/relational-database-experts-jump-the-mapreduce-shark	2
+http://www.pentaho.com/blog/2014/06/06/hadoop-summit-2014-big-data-keeps-getting-bigger	1
+https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D8%A7%D8%AA%D8%B4%D9%8A_%D9%87%D8%AF%D9%88%D8%A8" title="أباتشي هدوب – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target	1
+https://books.google.com/books?id=axruBQAAQBAJ&amp;pg=PA300	1
+https://developer.yahoo.com/blogs/hadoop/hadoop-summit-2011-june-29th-santa-clara-convention-5061.html	1
+https://developer.yahoo.com/blogs/hadoop/yahoo-launches-world-largest-hadoop-production-application-398.html	2
+https://en.wikipedia.org/w/index.php?title=Template:File_systems&amp;action=edit	1
+https://fi.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target	1
+https://fr.wikipedia.org/wiki/MapReduce" title="MapReduce – French" lang="fr" hreflang="fr" class="interlanguage-link-target	1
+https://gigaom.com/2014/03/27/apache-mahout-hadoops-original-machine-learning-project-is-moving-on-from-mapreduce/	1
+https://hadoop.apache.org/who.html	1
+https://ieeexplore.ieee.org/document/6877311/	1
+https://issues.apache.org/jira/browse/NUTCH-197	1
+https://ro.wikipedia.org/wiki/MapReduce" title="MapReduce – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target	1
+https://sr.wikipedia.org/wiki/MapReduce" title="MapReduce – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target	1
+https://uk.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target	1
+https://web.archive.org/web/20110817053520/http://hadoop.apache.org/common/docs/current/commands_manual.html#job	1
+https://web.archive.org/web/20140328121334/http://www.clusterpoint.com/	1
+https://web.archive.org/web/20160307080603/https://developer.yahoo.com/blogs/hadoop/hadoop-summit-2010-agenda-available-455.html	1
+https://www.wikidata.org/wiki/Q567759" title="Edit this at Wikidata	1
+https://www.wikidata.org/wiki/Special:EntityPage/Q29120" title="Link to connected data repository item [g]" accesskey="g	1
+https://www.worldcat.org/identities/containsVIAFID/305041139	1
+#Conferences_and_users_groups	1
+#External_links	2
+#Hadoop_distributed_file_system	3
+#JobTracker_and_TaskTracker:_the_MapReduce_engine	1
+#Output_writer	1
+#Overview	1
+#Restricted_programming_framework	1
+#cite_note-101	1
+#cite_note-12	2
+#cite_note-19	1
+#cite_note-26	1
+#cite_note-33	1
+#cite_note-40	1
+#cite_note-47	1
+#cite_note-54	1
+#cite_note-6	2
+#cite_note-61	1
+#cite_note-68	1
+#cite_note-82	1
+#cite_note-89	1
+#cite_note-96	1
+#cite_note-HBase-36	2
+#cite_note-contributions-to-apache-hadoop-50	2
+#cite_note-evalMR-20	1
+#cite_note-gj1-38	1
+#cite_note-history-of-hadoop-52	2
+#cite_note-map-5	1
+#cite_note-openlibrary1-75	2
+#cite_ref-10	1
+#cite_ref-105	1
+#cite_ref-17	2
+#cite_ref-24	1
+#cite_ref-31	1
+#cite_ref-38	1
+#cite_ref-45	2
+#cite_ref-5	1
+#cite_ref-59	1
+#cite_ref-66	1
+#cite_ref-73	1
+#cite_ref-80	1
+#cite_ref-87	1
+#cite_ref-94	1
+#cite_ref-datanami.com_29-0	1
+#cite_ref-hadoop-apache-org_41-0	1
+#cite_ref-hadoop-apache-org_41-7	1
+#cite_ref-stackoverflow_10-0	1
+#cite_ref-tom-white-book_27-1	1
+#cite_ref-tom-white-book_27-8	1
+#cite_ref-ullman_11-0	1
+//creativecommons.org/licenses/by-sa/3.0/" style="display:none;	2
+//doi.org/10.1109%2FHPCA.2007.346181	1
+//en.wikipedia.org/wiki/Wikipedia:Contact_us	2
+//foundation.wikimedia.org/wiki/Terms_of_Use	2
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=22" title="Edit section: External links	1
+/w/index.php?title=Appistry&amp;action=edit&amp;redlink=1" class="new" title="Appistry (page does not exist)	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=12" title="Edit section: Distribution and reliability	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=15" title="Edit section: Lack of novelty	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=5" title="Edit section: Input reader	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=7" title="Edit section: Partition function	1
+/w/index.php?title=MapReduce&amp;action=info" title="More information about this page	1
+/w/index.php?title=MapReduce&amp;oldid=911464743" title="Permanent link to this revision of the page	1
+/w/index.php?title=Special:ElectronPdf&amp;page=Apache+Hadoop&amp;action=show-download-screen	1
+/w/index.php?title=Special:UserLogin&amp;returnto=Apache+Hadoop" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o	1
+/wiki/.google" title=".google	1
+/wiki/Amiga_Old_File_System" title="Amiga Old File System	1
+/wiki/Android_Automotive" title="Android Automotive	1
+/wiki/Angular_(web_framework)" title="Angular (web framework)	1
+/wiki/Ann_Mather" title="Ann Mather	1
+/wiki/Apache_ActiveMQ" title="Apache ActiveMQ	1
+/wiki/Apache_Buildr" title="Apache Buildr	1
+/wiki/Apache_C%2B%2B_Standard_Library" title="Apache C++ Standard Library	1
+/wiki/Apache_CarbonData" title="Apache CarbonData	1
+/wiki/Apache_Cayenne" title="Apache Cayenne	1
+/wiki/Apache_CloudStack" title="Apache CloudStack	1
+/wiki/Apache_Drill" title="Apache Drill	1
+/wiki/Apache_Gump" title="Apache Gump	1
+/wiki/Apache_MINA" title="Apache MINA	1
+/wiki/Apache_OpenJPA" title="Apache OpenJPA	1
+/wiki/Apache_Phoenix" title="Apache Phoenix	2
+/wiki/Apache_SINGA" title="Apache SINGA	1
+/wiki/Apache_ServiceMix" title="Apache ServiceMix	1
+/wiki/Apache_Sling" title="Apache Sling	1
+/wiki/Apache_Sqoop" class="mw-redirect" title="Apache Sqoop	1
+/wiki/Apache_Trafodion" title="Apache Trafodion	1
+/wiki/Apache_Wicket" title="Apache Wicket	1
+/wiki/Apache_Xerces" title="Apache Xerces	1
+/wiki/Apache_Yetus" title="Apache Yetus	1
+/wiki/Apache_iBATIS" title="Apache iBATIS	1
+/wiki/App_Inventor_for_Android" title="App Inventor for Android	1
+/wiki/Associative_property" title="Associative property	1
+/wiki/B-tree" title="B-tree	1
+/wiki/Category:All_articles_needing_additional_references" title="Category:All articles needing additional references	1
+/wiki/Category:Articles_with_example_code" title="Category:Articles with example code	1
+/wiki/Category:CS1_errors:_deprecated_parameters" title="Category:CS1 errors: deprecated parameters	2
+/wiki/Category:Cloud_infrastructure" title="Category:Cloud infrastructure	1
+/wiki/Category:Distributed_computing_architecture" title="Category:Distributed computing architecture	1
+/wiki/Category:Free_software_programmed_in_Java_(programming_language)" title="Category:Free software programmed in Java (programming language)	1
+/wiki/Category:Google_hardware" title="Category:Google hardware	1
+/wiki/Category:Wikipedia_articles_with_LCCN_identifiers" title="Category:Wikipedia articles with LCCN identifiers	1
+/wiki/Category:Wikipedia_articles_with_VIAF_identifiers" title="Category:Wikipedia articles with VIAF identifiers	1
+/wiki/Chrome_Web_Store" title="Chrome Web Store	1
+/wiki/Chrome_Zone" title="Chrome Zone	1
+/wiki/Chromebook" title="Chromebook	1
+/wiki/Cramfs" title="Cramfs	1
+/wiki/Data_Warehouse" class="mw-redirect" title="Data Warehouse	1
+/wiki/Deltacloud" title="Deltacloud	1
+/wiki/Distributed_File_System_(Microsoft)" title="Distributed File System (Microsoft)	1
+/wiki/Dragonfly_(search_engine)" title="Dragonfly (search engine)	1
+/wiki/Elliptics" title="Elliptics	1
+/wiki/Etch_(protocol)" title="Etch (protocol)	1
+/wiki/Ext3cow" title="Ext3cow	1
+/wiki/FTPFS" title="FTPFS	1
+/wiki/Fail-over" class="mw-redirect" title="Fail-over	1
+/wiki/File:Hadoop_1.png" class="internal" title="Enlarge	1
+/wiki/File:Question_book-new.svg" class="image	1
+/wiki/G_Suite_Marketplace" title="G Suite Marketplace	1
+/wiki/Gboard" title="Gboard	1
+/wiki/Google_(verb)" title="Google (verb)	1
+/wiki/Google_AdSense" title="Google AdSense	1
+/wiki/Google_Analytics" title="Google Analytics	1
+/wiki/Google_Chrome_App" title="Google Chrome App	1
+/wiki/Google_Chrome_for_Android" title="Google Chrome for Android	1
+/wiki/Google_Cloud_Print" title="Google Cloud Print	1
+/wiki/Google_Developers" title="Google Developers	1
+/wiki/Google_Drive" title="Google Drive	1
+/wiki/Google_Fi" title="Google Fi	1
+/wiki/Google_Flights" title="Google Flights	1
+/wiki/Google_Home" title="Google Home	1
+/wiki/Google_MillWheel" title="Google MillWheel	1
+/wiki/Google_Native_Client" title="Google Native Client	1
+/wiki/Google_News" title="Google News	2
+/wiki/Google_Now" title="Google Now	1
+/wiki/Google_Pay_Send" title="Google Pay Send	2
+/wiki/Google_Photos" title="Google Photos	1
+/wiki/Google_Pixel" title="Google Pixel	1
+/wiki/Google_Play" title="Google Play	1
+/wiki/Google_Public_DNS" title="Google Public DNS	1
+/wiki/Google_Public_Data_Explorer" title="Google Public Data Explorer	1
+/wiki/Google_Shopping" title="Google Shopping	1
+/wiki/Google_Summer_of_Code" title="Google Summer of Code	1
+/wiki/Google_Swiffy" title="Google Swiffy	1
+/wiki/Google_Trends" title="Google Trends	1
+/wiki/Google_Videos" title="Google Videos	1
+/wiki/Google_Voice" title="Google Voice	1
+/wiki/Googlebot" title="Googlebot	1
+/wiki/Grid_Computing" class="mw-redirect" title="Grid Computing	1
+/wiki/HBase" class="mw-redirect" title="HBase	2
+/wiki/HTTP" class="mw-redirect" title="HTTP	1
+/wiki/Hard_link" title="Hard link	1
+/wiki/Help:Introduction_to_referencing_with_Wiki_Markup/1" title="Help:Introduction to referencing with Wiki Markup/1	1
+/wiki/History_of_Gmail" title="History of Gmail	1
+/wiki/Hortonworks#Hortonworks_Data_Platform_(HDP)" title="Hortonworks	1
+/wiki/Installable_File_System" title="Installable File System	1
+/wiki/Internet_socket" class="mw-redirect" title="Internet socket	1
+/wiki/Jakarta_Cactus" title="Jakarta Cactus	1
+/wiki/Jamboard" title="Jamboard	1
+/wiki/Journaling_file_system" title="Journaling file system	1
+/wiki/Library_(software)" class="mw-redirect" title="Library (software)	1
+/wiki/List_of_Google_products" title="List of Google products	1
+/wiki/List_of_file_systems#Distributed_file_systems" title="List of file systems	2
+/wiki/List_of_mergers_and_acquisitions_by_Alphabet" title="List of mergers and acquisitions by Alphabet	1
+/wiki/Lustre_(file_system)" title="Lustre (file system)	1
+/wiki/Machine_learning" title="Machine learning	3
+/wiki/MapReduce" title="View the content page [c]" accesskey="c	1
+/wiki/Map_(higher-order_function)" title="Map (higher-order function)	1
+/wiki/Modes_(Unix)" title="Modes (Unix)	1
+/wiki/NetWare_Core_Protocol" title="NetWare Core Protocol	1
+/wiki/Noto" title="Noto	1
+/wiki/OverlayFS" title="OverlayFS	1
+/wiki/PL/SQL" title="PL/SQL	1
+/wiki/Pig_(programming_language)" class="mw-redirect" title="Pig (programming language)	1
+/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia	2
+/wiki/QNX4FS" title="QNX4FS	1
+/wiki/Quantcast_File_System" title="Quantcast File System	1
+/wiki/Reduce_(parallel_pattern)" title="Reduce (parallel pattern)	1
+/wiki/Roboto" title="Roboto	1
+/wiki/Shirley_M._Tilghman" title="Shirley M. Tilghman	1
+/wiki/Sitemaps" title="Sitemaps	1
+/wiki/Soup_(Apple)" title="Soup (Apple)	1
+/wiki/Special:BookSources/978-1-4503-0702-4" title="Special:BookSources/978-1-4503-0702-4	1
+/wiki/Special:BookSources/978-1-5090-3682-0" title="Special:BookSources/978-1-5090-3682-0	1
+/wiki/Special:BookSources/9781605582825" title="Special:BookSources/9781605582825	1
+/wiki/Sticky_bit" title="Sticky bit	1
+/wiki/Susan_Wojcicki" title="Susan Wojcicki	1
+/wiki/TCP/IP" class="mw-redirect" title="TCP/IP	1
+/wiki/Tango_(platform)" title="Tango (platform)	1
+/wiki/Timeline_of_Google_Search" title="Timeline of Google Search	1
+/wiki/Transaction-Safe_FAT_File_System" title="Transaction-Safe FAT File System	1
+/wiki/Unix_filesystem" title="Unix filesystem	1
+/wiki/Urs_H%C3%B6lzle" title="Urs Hölzle	1
+/wiki/Waze" title="Waze	1
+/wiki/Web_application" title="Web application	1
+/wiki/Working_set" title="Working set	1
+/wiki/YouTube_Instant" title="YouTube Instant	1
+http://azure.microsoft.com/en-us/solutions/hadoop/	2
+http://hadoop.apache.org	1
+http://hadoop.apache.org/	2
+http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html#Rack_Awareness	1
+http://mail-archives.apache.org/mod_mbox/hadoop-general/201105.mbox/%3C4DC91392.2010308@apache.org%3E	1
+http://news.cnet.com/8301-10784_3-9955184-7.html	1
+http://oreilly.com/catalog/9780596521974	1
+http://riccomini.name/posts/hadoop/2009-06-13-hadoop-summit-2009/	1
+http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/bigtable-osdi06.pdf	1
+http://www-01.ibm.com/software/data/infosphere/hadoop/hdfs/	1
+http://www.baselinemag.com/c/a/Infrastructure/How-Google-Works-1/5	1
+http://www.datanami.com/2015/04/15/from-spiders-to-elephants-the-history-of-hadoop/	1
+http://www.datascienceassn.org/content/data-locality-hpc-vs-hadoop-vs-spark	1
+http://www.ibm.com/developerworks/library/os-hadoop-scheduling/	1
+http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-single-node-cluster/#prerequisites	1
+https://HADOOP.APACHE.ORG/DOCS/R2.7.5/HADOOP-PROJECT-DIST/HADOOP-HDFS/HDFSUSERGUIDE.HTML	1
+https://az.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Azerbaijani" lang="az" hreflang="az" class="interlanguage-link-target	1
+https://commons.wikimedia.org/wiki/Category:MapReduce" class="extiw" title="commons:Category:MapReduce	1
+https://cs.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target	1
+https://developer.yahoo.com/blogs/ydn/hadoop-yahoo-more-ever-54421.html	1
+https://es.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Spanish" lang="es" hreflang="es" class="interlanguage-link-target	1
+https://finance.yahoo.com/news/continuuity-raises-10-million-series-120500471.html	1
+https://foundation.wikimedia.org/wiki/Cookie_statement	2
+https://gigaom.com/2013/03/04/the-history-of-hadoop-from-4-nodes-to-the-future-of-data/	1
+https://hadoop.apache.org/docs/r3.2.0/	1
+https://id.loc.gov/authorities/names/no2013077469	1
+https://ieeexplore.ieee.org/document/6877311	1
+https://issues.apache.org/jira/browse/HADOOP-6330	1
+https://it.hortonworks.com/blog/hadoop-3-adds-value-hadoop-2/	1
+https://ja.wikipedia.org/wiki/MapReduce" title="MapReduce – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target	1
+https://pt.wikipedia.org/wiki/MapReduce" title="MapReduce – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target	1
+https://ru.wikipedia.org/wiki/MapReduce" title="MapReduce – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target	1
+https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35650.pdf	1
+https://svn.apache.org/repos/asf/hadoop/common/branches/MAPREDUCE-233/src/contrib/fairscheduler/designdoc/fair_scheduler_design_doc.pdf	1
+https://viaf.org/viaf/305041139	1
+https://wikimediafoundation.org/	2
+https://www.crunchbase.com/organization/cloudera#/entity	1
+https://www.hpcwire.com/2014/10/15/cray-launches-hadoop-hpc-airspace/	1
+#Criticism	1
+#Difference_between_Hadoop_1_and_Hadoop_2_(YARN)	1
+#Difference_between_Hadoop_2_and_Hadoop_3	1
+#Other_file_systems	1
+#Reduce_function	1
+#cite_note-102	1
+#cite_note-13	2
+#cite_note-20	1
+#cite_note-34	1
+#cite_note-48	1
+#cite_note-55	1
+#cite_note-62	1
+#cite_note-7	2
+#cite_note-83	1
+#cite_note-90	1
+#cite_note-97	1
+#cite_note-ddandms1-33	2
+#cite_note-dynCloudMR-26	1
+#cite_ref-106	1
+#cite_ref-11	1
+#cite_ref-18	2
+#cite_ref-25	1
+#cite_ref-32	1
+#cite_ref-39	1
+#cite_ref-53	1
+#cite_ref-6	2
+#cite_ref-60	1
+#cite_ref-67	1
+#cite_ref-74	1
+#cite_ref-81	1
+#cite_ref-88	1
+#cite_ref-95	1
+#cite_ref-ApacheHiveWiki_34-0	1
+#cite_ref-Chambers2010_30-0	1
+#cite_ref-datanami.com_29-1	1
+#cite_ref-evalMR_20-0	1
+#cite_ref-hadoop-apache-org_41-1	1
+#cite_ref-hadoop-apache-org_41-8	1
+#cite_ref-history-of-hadoop_52-0	1
+#cite_ref-michael-noll.com_1_70-0	1
+#cite_ref-mrml_19-0	1
+#cite_ref-sigmod_39-0	1
+#cite_ref-tom-white-book_27-2	1
+#cite_ref-tom-white-book_27-9	1
+#cite_ref-ullman_11-1	1
+//citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.671.2763	1
+//doi.org/10.1002%2Fcpe.3628	1
+//doi.org/10.1109%2F3PGCIC.2010.33	1
+//doi.org/10.1145%2F1454115.1454152	1
+//doi.org/10.18637%2Fjss.v040.i01	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=10" title="Edit section: Capacity scheduler	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=14" title="Edit section: Prominent use cases	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=16" title="Edit section: Commercial support	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=19" title="Edit section: See also	1
+/w/index.php?title=Apache_Hadoop&amp;action=edit&amp;section=21" title="Edit section: Bibliography	1
+/w/index.php?title=Apache_Hadoop&amp;action=info" title="More information about this page	1
+/w/index.php?title=MapReduce&amp;action=edit&amp;section=8" title="Edit section: Comparison function	1
+/w/index.php?title=Parascale&amp;action=edit&amp;redlink=1" class="new" title="Parascale (page does not exist)	1
+/w/index.php?title=Special:CiteThisPage&amp;page=MapReduce&amp;id=911464743" title="Information on how to cite this page	1
+/w/index.php?title=Special:ElectronPdf&amp;page=MapReduce&amp;action=show-download-screen	1
+/wiki/Android_Auto" title="Android Auto	1
+/wiki/Apache_Aries" title="Apache Aries	1
+/wiki/Apache_Cordova" title="Apache Cordova	1
+/wiki/Apache_CouchDB" title="Apache CouchDB	3
+/wiki/Apache_Empire-db" title="Apache Empire-db	1
+/wiki/Apache_Flex" title="Apache Flex	1
+/wiki/Apache_Flume" title="Apache Flume	2
+/wiki/Apache_Forrest" title="Apache Forrest	1
+/wiki/Apache_Geronimo" title="Apache Geronimo	1
+/wiki/Apache_HTTP_Server" title="Apache HTTP Server	1
+/wiki/Apache_Hama" title="Apache Hama	1
+/wiki/Apache_Harmony" title="Apache Harmony	1
+/wiki/Apache_Ivy" title="Apache Ivy	1
+/wiki/Apache_Kylin" title="Apache Kylin	1
+/wiki/Apache_Lenya" title="Apache Lenya	1
+/wiki/Apache_License" title="Apache License	1
+/wiki/Apache_POI" title="Apache POI	1
+/wiki/Apache_Spark" title="Apache Spark	2
+/wiki/Apache_Struts_1" title="Apache Struts 1	1
+/wiki/Apache_Subversion" title="Apache Subversion	1
+/wiki/Apache_Wave" title="Apache Wave	1
+/wiki/AtheOS_File_System" title="AtheOS File System	1
+/wiki/BigQuery" title="BigQuery	1
+/wiki/Boot_File_System" title="Boot File System	2
+/wiki/Byte_Code_Engineering_Library" title="Byte Code Engineering Library	1
+/wiki/Category:Articles_containing_potentially_dated_statements_from_October_2009" title="Category:Articles containing potentially dated statements from October 2009	1
+/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata	1
+/wiki/Coda_(file_system)" title="Coda (file system)	1
+/wiki/Command-line_interface" title="Command-line interface	2
+/wiki/Commodity_hardware" class="mw-redirect" title="Commodity hardware	1
+/wiki/Data_scrubbing" title="Data scrubbing	1
+/wiki/Datadog" title="Datadog	1
+/wiki/Datalight#Reliance_Nitro" title="Datalight	1
+/wiki/David_DeWitt" title="David DeWitt	2
+/wiki/Dialogflow" title="Dialogflow	1
+/wiki/Eric_Schmidt" title="Eric Schmidt	1
+/wiki/Extent_(file_systems)" title="Extent (file systems)	1
+/wiki/File_manager" title="File manager	1
+/wiki/Filesystem-level_encryption" title="Filesystem-level encryption	2
+/wiki/Firebase" title="Firebase	1
+/wiki/Global_file_system" title="Global file system	1
+/wiki/Google_Ad_Grants" title="Google Ad Grants	1
+/wiki/Google_Bookmarks" title="Google Bookmarks	1
+/wiki/Google_Chrome_Experiments" title="Google Chrome Experiments	1
+/wiki/Google_Closure_Tools" title="Google Closure Tools	1
+/wiki/Google_Cloud_Platform" title="Google Cloud Platform	1
+/wiki/Google_Custom_Search" title="Google Custom Search	1
+/wiki/Google_Dataset_Search" title="Google Dataset Search	1
+/wiki/Google_Dictionary" title="Google Dictionary	1
+/wiki/Google_Fusion_Tables" title="Google Fusion Tables	1
+/wiki/Google_Glass" title="Google Glass	1
+/wiki/Google_Goggles" title="Google Goggles	1
+/wiki/Google_Guice" title="Google Guice	1
+/wiki/Google_IME" title="Google IME	1
+/wiki/Google_My_Business" title="Google My Business	1
+/wiki/Google_Personalized_Search" title="Google Personalized Search	1
+/wiki/Google_Play_Games" title="Google Play Games	1
+/wiki/Google_Slides" title="Google Slides	1
+/wiki/Google_Station" title="Google Station	1
+/wiki/Google_Text-to-Speech" title="Google Text-to-Speech	1
+/wiki/Google_The_Thinking_Factory" title="Google The Thinking Factory	1
+/wiki/Google_Website_Optimizer" title="Google Website Optimizer	1
+/wiki/Google_Wifi" title="Google Wifi	1
+/wiki/Goojje" title="Goojje	1
+/wiki/Grid_file_system" title="Grid file system	1
+/wiki/HFS_Plus" title="HFS Plus	1
+/wiki/Hadoop" class="mw-redirect" title="Hadoop	2
+/wiki/Hierarchical_File_System" title="Hierarchical File System	1
+/wiki/IBRIX_Fusion" title="IBRIX Fusion	1
+/wiki/JFFS2" title="JFFS2	1
+/wiki/Log-structured_File_System_(BSD)" title="Log-structured File System (BSD)	1
+/wiki/Logical_schema" title="Logical schema	1
+/wiki/Low-level_programming_language" title="Low-level programming language	1
+/wiki/Made_with_Code" title="Made with Code	1
+/wiki/Main_Page" title="Visit the main page	2
+/wiki/Manning_Publications" title="Manning Publications	1
+/wiki/Marshalling_(computer_science)" title="Marshalling (computer science)	1
+/wiki/Motorola_Mobility" title="Motorola Mobility	1
+/wiki/Open-closed_principle" class="mw-redirect" title="Open-closed principle	1
+/wiki/Oracle_database" class="mw-redirect" title="Oracle database	1
+/wiki/POSIX" title="POSIX	1
+/wiki/Paradigm_shift" title="Paradigm shift	1
+/wiki/Parallel_Virtual_File_System" title="Parallel Virtual File System	1
+/wiki/Partition_(database)" title="Partition (database)	1
+/wiki/Rajen_Sheth" title="Rajen Sheth	1
+/wiki/Single-threaded" class="mw-redirect" title="Single-threaded	1
+/wiki/Software_categories#Categorization_approaches" title="Software categories	1
+/wiki/Software_framework#Architecture" title="Software framework	1
+/wiki/Special:BookSources/0262081571" title="Special:BookSources/0262081571	1
+/wiki/Special:BookSources/978-1-4244-0804-7" title="Special:BookSources/978-1-4244-0804-7	1
+/wiki/Special:BookSources/978-1-4244-8538-3" title="Special:BookSources/978-1-4244-8538-3	1
+/wiki/Special:BookSources/9781450300711" title="Special:BookSources/9781450300711	1
+/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n	2
+/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q	2
+/wiki/StorNext_File_System" title="StorNext File System	2
+/wiki/Talk:Apache_Hadoop" rel="discussion" title="Discussion about the content page [t]" accesskey="t	1
+/wiki/Talk:MapReduce" rel="discussion" title="Discussion about the content page [t]" accesskey="t	1
+/wiki/Template:Android_(operating_system)" title="Template:Android (operating system)	1
+/wiki/Template:Google_Pixel" title="Template:Google Pixel	1
+/wiki/Tux3" title="Tux3	1
+/wiki/Universal_Disk_Format" title="Universal Disk Format	1
+/wiki/Vint_Cerf" title="Vint Cerf	1
+/wiki/WBFS" title="WBFS	1
+/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources	1
+/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer	2
+/wiki/Write_Anywhere_File_Layout" title="Write Anywhere File Layout	1
+http://hadoop.apache.org/docs/r2.5.1/api/org/apache/hadoop/yarn/api/records/Resource.html#newInstance(int,%20int)	1
+http://hadoop.apache.org/docs/r3.1.0/index.html	1
+http://pig.apache.org/	1
+http://sortbenchmark.org/Yahoo2009.pdf	1
+http://sortbenchmark.org/YahooHadoop.pdf	1
+http://wiki.apache.org/hadoop/Defining%20Hadoop	1
+http://www.cse.ohio-state.edu/hpcs/WWW/HTML/publications/papers/TR-11-7.pdf	1
+http://www.dbms2.com/2009/10/10/enterprises-using-hadoo/	1
+http://www.michael-noll.com/tutorials/running-hadoop-on-ubuntu-linux-multi-node-cluster/	1
+https://accumulo.apache.org/1.4/user_manual/Security.html	1
+https://archive.is/20121214201610/http://ysmart.cse.ohio-state.edu/	1
+https://blogs.saphana.com/2014/04/14/loved-hadoop-summit-europe-2014-hope-you-did-too/	1
+https://ca.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target	1
+https://d-nb.info/gnd/1022420135	1
+https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy	2
+https://hadoop.apache.org	2
+https://issues.apache.org/jira/browse/HADOOP-3412	1
+https://it.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Italian" lang="it" hreflang="it" class="interlanguage-link-target	1
+https://stackoverflow.com/questions/3947889/mongodb-terrible-mapreduce-performance	1
+https://thinkbiganalytics.com/yahoo-updates-from-hadoop-summit-2010/	1
+https://vi.wikipedia.org/wiki/Apache_Hadoop" title="Apache Hadoop – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target	1
+https://web.archive.org/web/20100114053209/http://graal.ens-lyon.fr/mapreduce/	1
+https://web.archive.org/web/20141006090717/http://hadoop.apache.org/docs/r2.5.1/api/org/apache/hadoop/yarn/api/records/Resource.html#newInstance(int,%20int)	1
+https://www.theguardian.com/technology/2011/mar/25/media-guardian-innovation-awards-apache-hadoop	1

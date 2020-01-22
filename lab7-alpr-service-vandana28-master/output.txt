@@ -1,0 +1,18 @@
+(40.015, -105.2705)
+Most likely plate is 80.467194
+Most likely confidence is 9SJL
+Most likely plate is 79.091377
+Most likely confidence is SSJL
+Most likely plate is 75.774567
+Most likely confidence is BSJL
+Most likely plate is 72.739716
+Most likely confidence is B9SJL
+Redis get by Hash Value
+786d4d75e52cde3b292045265aa59a2c
+[(40.015, -105.2705), ('9SJL', 80.467194), ('SSJL', 79.091377), ('BSJL', 75.774567), ('B9SJL', 72.739716)]
+Redis get by Name
+the-meat-car.jpg
+b'786d4d75e52cde3b292045265aa59a2c'
+Redis get by License
+9SJL
+b'786d4d75e52cde3b292045265aa59a2c'

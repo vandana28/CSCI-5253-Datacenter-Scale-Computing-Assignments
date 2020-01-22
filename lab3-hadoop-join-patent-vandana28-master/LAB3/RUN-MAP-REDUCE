@@ -1,0 +1,49 @@
+#!/bin/sh
+
+#
+# Try to find the streaming JAR
+#
+
+PLACES="/usr/lib/hadoop-mapreduce/hadoop-streaming.jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.9.2.jar"
+STREAM=""
+
+for place in $PLACES; do
+    if [ -f $place ]
+    then
+    STREAM="$place"
+    fi
+done
+
+if [ -z "$STREAM" ]
+then
+    echo "Unable to find your streaming JAR"
+    exit 1
+fi
+   
+hdfs dfs -rm -R output*
+
+hadoop jar $STREAM \
+    -mapper "python mapper1.py" \
+    -reducer "python reducer1.py" \
+    -file mapper1.py -file reducer1.py \
+    -input input -output output1
+
+hdfs dfs -put ~/apat63_99.txt output1
+
+hadoop jar $STREAM \
+    -mapper "python mapper2.py" \
+    -reducer "python reducer2.py" \
+    -file mapper2.py -file reducer2.py \
+    -input output1 -output output2
+
+hdfs dfs -put ~/apat63_99.txt output2
+
+hadoop jar $STREAM \
+    -mapper "python mapper3.py" \
+    -reducer "python reducer3.py" \
+    -file mapper3.py -file reducer3.py \
+    -input output2 -output output3
+
+
+
+
