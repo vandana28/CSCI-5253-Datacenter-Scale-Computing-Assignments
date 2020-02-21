@@ -7,10 +7,10 @@ This course covers the primary problem solving strategies, methods, and tools ne
 #### Labs include
 
 1. A quick tour of the Google Cloud Platform
-2. Converting the WordCount Map-Reduce example to URLCount using Hadoop
-3. Chain Mappers and Reducers example using Hadoop on GCP
-4. Utilizing PySpark and Python's DataFrame functions
-5. An assignment to demonstrate programmatic interfaces to cloud software
+2. Converting WordCount Map-Reduce example to URLCount using Hadoop
+3. Chain Mappers/Reducers application using Hadoop on GCP
+4. Application that demonstrates PySpark and Python's DataFrame functions
+5. An assignment to demonstrate programmatic construction of VM instances.
 6. Comparing REST and GRPC's API, latency and bandwidth on GCP
 7. Automatic license plate recognition system using Google Cloud - implemented REST server, Redis Key-value store, RabbitMQ messaging queue and appropriate worker nodes on GCP
-8. Dockerized the application mentioned in assignment 7 and deployed the services to Kubernetes cluster
+8. Dockerized the application mentioned in assignment 7 and deployed the services to a Kubernetes cluster on GCP.
