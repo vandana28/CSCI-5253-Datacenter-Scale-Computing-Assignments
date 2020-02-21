@@ -13,4 +13,4 @@ This course covers the primary problem solving strategies, methods, and tools ne
 5. An assignment to demonstrate programmatic interfaces to cloud software
 6. Comparing REST and GRPC's API, latency and bandwidth on GCP
 7. Automatic license plate recognition system using Google Cloud - implemented REST server, Redis Key-value store, RabbitMQ messaging queue and appropriate worker nodes on GCP
-8. Dockerized the application mentioned in assignemnt 7 and deployed the services to Kubernetes cluster
+8. Dockerized the application mentioned in assignment 7 and deployed the services to Kubernetes cluster
